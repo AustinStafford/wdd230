@@ -27,11 +27,11 @@ nav a:hover{
   color: #900603
 }
 
-.home-grid, .men-grid, .women-grid, nav ul {
+.home-grid, nav ul {
     display: block;
 }
      
-.home-grid, .men-grid, .women-grid, nav ul, .banner-box {
+.home-grid, nav ul, .banner-box {
     display: block;
 }
 
