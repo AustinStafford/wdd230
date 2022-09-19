@@ -32,6 +32,6 @@ let fulldate = `Last Modified on ${day}, ${month} ${d.getDate()}, ${year}. `
 
 document.getElementById("lastmodified").textContent = modifieddate;
 
-alert(document.lastmodified);
+alert(document.lastModified);
 // returns current date and time. 
 
