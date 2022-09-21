@@ -15,53 +15,37 @@ body {
 header {
   top: 0;
   background-color: #072F5F;
-  display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
-  grid-gap: 1em;
+  display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  grid-gap: 1em;
+  margin: 1rem;
+  max-width: 800px;
+  padding: 1rem;
   font-family: "prompt", ariel, sans-serif;
   color: aqua;
   border: 2px solid aqua;
+  box-shadow: 5px 5px 5px #000000;
 }
 
 h1 {
-  grid-column: 1 / 2;
-  grid-row: 1 ;
+  border: 2px solid aqua;
+  line-height: 1;
+  text-align: right;
+}
+
+img {
   border: 2px solid aqua;
 }
 
-
-img {
-grid-column: 2 / 2;
-grid-row: 2;
-border: 2px solid aqua;
-}
-
-/*.main-heading {
-display: grid;
-border: 3px solid;
-background-color: #072F5F;
-border: 2px solid aqua;
-}*/
-
-img {
-grid-column: 1/-1;
-color: aqua;
-}
-
  li a {
-  color: rgb(25, 172, 205);
+  color: rgb(50, 209, 245);
   font-size: 1.1em; 
+  padding: 1rem;
 }
 
 a:hover{ 
-  border: 3px solid;
   color: #900603
-}
-
-.home-grid, nav ul {
-    display: block;
 }
 
 ul {
@@ -72,18 +56,10 @@ ul {
 }
 
 main {
+  display: block;
   background-color:white;
   border: 2px solid aqua;
 }
-
-/*.men-grid, .women-grid {
-  display: grid;
-  /*display: flex;*/
- /* grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 1em;
-}
-*/
 
 h2, h3, h4, h5, h6 {
   background-color: #072F5F;
@@ -92,33 +68,8 @@ h2, h3, h4, h5, h6 {
   padding: 0.5em;
   padding-left: 1.5em;
   line-height:1;
-  margin-bottom: -10px;
+  margin-bottom: 20px;
   box-shadow: 5px 5px 5px #000000;
-}
-
-h1 {
-  line-height: 5;
-  text-align: right;
-}
-
-.flex {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-
-section {
-  margin: 0 auto;
-  margin-top: 100px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-.flex div {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
 }
 
 footer{
@@ -134,6 +85,7 @@ footer{
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
   box-shadow: 5px 5px 5px #000000;
+  padding: 0.5rem;
 }
 
 .footer-paragraph {
