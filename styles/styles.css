@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:400,700');
-@import url('https://fonts.googleapis.com/css?family= Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 
 body {
   background-color: white;
@@ -52,7 +52,7 @@ ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-  margin: 5;
+  margin: 5px;
 }
 
 main {
