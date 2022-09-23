@@ -1,8 +1,8 @@
 @media (max-width: 550px) { 
   /* beginning of media query */
-      .home-grid {
+      /*.home-grid {
       display: block;
-      }
+      }*/
 
 @import url('https://fonts.googleapis.com/css?family=Prompt:400,700');
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
