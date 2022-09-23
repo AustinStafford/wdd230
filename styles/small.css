@@ -4,108 +4,108 @@
       display: block;
       }*/
 
-  @import url('https://fonts.googleapis.com/css?family=Prompt:400,700');
-  @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Prompt:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 
-  body {
-    background-color: white;
-    font-family: oxygen, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-  }
+    body {
+      background-color: white;
+      font-family: oxygen, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
 
-  header {
-    top: 0;
-    background-color: #072F5F;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    grid-gap: 1em;
-    margin: 1rem;
-    max-width: 800px;
-    padding: 1rem;
-    font-family: "prompt", ariel, sans-serif;
-    color: aqua;
-    border: 2px solid aqua;
-    box-shadow: 5px 5px 5px #000000;
-  }
+    header {
+      top: 0;
+      background-color: #072F5F;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      grid-gap: 1em;
+      margin: 1rem;
+      max-width: 800px;
+      padding: 1rem;
+      font-family: "prompt", ariel, sans-serif;
+      color: aqua;
+      border: 2px solid aqua;
+      box-shadow: 5px 5px 5px #000000;
+    }
 
-  h1 {
-    border: 2px solid aqua;
-    line-height: 1;
-    text-align: right;
-  }
+    h1 {
+      border: 2px solid aqua;
+      line-height: 1;
+      text-align: right;
+    }
 
-  img {
-    border: 2px solid aqua;
-  }
+    img {
+      border: 2px solid aqua;
+    }
 
-  li a {
-    color: rgb(50, 209, 245);
-    font-size: 1.1em; 
-    padding: 1rem;
-  }
+    li a {
+      color: rgb(50, 209, 245);
+      font-size: 1.1em; 
+      padding: 1rem;
+    }
 
-  a:hover{ 
-    color: #900603
-  }
+    a:hover{ 
+      color: #900603
+    }
 
-  ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-    margin: 5px;
-  }
+    ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+      margin: 5px;
+    }
 
-  main {
-    display: block;
-    background-color:white;
-    border: 2px solid aqua;
-  }
-
-  h2, h3, h4, h5, h6 {
-    background-color: #072F5F;
-    font-family: 'Rajdhani', sans-serif;
-    color: aqua;
-    padding: 0.5em;
-    padding-left: 1.5em;
-    line-height:1;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 5px #000000;
-  }
-
-  footer{
-    background-color: #072F5F;
-    color:aqua;
-    max-height: 55px;
-    display:flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    grid-template-columns: 110px auto;
-    border: 2px solid;
-    align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-    box-shadow: 5px 5px 5px #000000;
-    padding: 0.5rem;
-  }
-
-  .footer-paragraph {
-    grid-column: 1/3;
-    padding: 0.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-
-  /*@media (max-width: 550px) { 
-  /* beginning of media query */
-      .home-grid {
+    main {
       display: block;
-      }
+      background-color:white;
+      border: 2px solid aqua;
+    }
+
+    h2, h3, h4, h5, h6 {
+      background-color: #072F5F;
+      font-family: 'Rajdhani', sans-serif;
+      color: aqua;
+      padding: 0.5em;
+      padding-left: 1.5em;
+      line-height:1;
+      margin-bottom: 20px;
+      box-shadow: 5px 5px 5px #000000;
+    }
+
+    footer{
+      background-color: #072F5F;
+      color:aqua;
+      max-height: 55px;
+      display:flex;
+      justify-content: space-evenly;
+      margin-top: 100px;
+      grid-template-columns: 110px auto;
+      border: 2px solid;
+      align-items: center;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1em;
+      box-shadow: 5px 5px 5px #000000;
+      padding: 0.5rem;
+    }
+
+    .footer-paragraph {
+      grid-column: 1/3;
+      padding: 0.5em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+
+    /*@media (max-width: 550px) { 
+    /* beginning of media query */
+        .home-grid {
+        display: block;
+        }
     
 /* end of media query */ 
 }  
