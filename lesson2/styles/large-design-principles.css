@@ -19,8 +19,6 @@ header {
 }
 
 main {
-/*display: grid;
-border: 3px solid;*/
 display:flex;
 background-color:white;
 justify-content: space-evenly;
@@ -28,7 +26,6 @@ margin-top: 100px;
 grid-template-columns: 110px auto;
 border: 2px solid;
 align-items: center;
-/*grid-template-columns: repeat(4, 1fr);*/
 grid-gap: 1em;
 }
 
