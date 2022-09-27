@@ -79,6 +79,18 @@ section {
   align-items: center;
 }
 
+.visual_hierarchy div {
+  border: 2px solid;
+}
+
+.white_space div {
+  border: 2px solid;
+}
+
+.contrast div {
+  border: 2px solid;
+}
+
 footer{
   background-color: #900603;
   color:aqua;
