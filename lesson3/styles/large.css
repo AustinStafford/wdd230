@@ -1,13 +1,18 @@
 @media only screen and (min-width: 900px) {
 
-    .content {
+    .head, footer  {
         max-width: 1000px;
-        margin: 0 auto;
-    }
+        margin: 50px auto;
+    } 
 
     .topic_content {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
     }
-}
+
+    .step1, .step2, .step3, .step4, .step5 {
+        max-width: 900px;
+        margin: 50px auto;
+    }
+} 

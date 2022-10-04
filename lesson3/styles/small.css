@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: white;
     font-family: oxygen, sans-serif;
     height: 100vh;
@@ -21,13 +21,12 @@ body {
   
   a:hover{ 
     border: 3px solid;
-    color: #072F5F;
+    color: #900603;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    background-color: #900603;
-    font-family: 'Rajdhani', sans-serif;
-    color: aqua;
+    background-color: #00297B;
+    color: white;
     align-items: center;
     padding: 0.5em;
     padding-left: 1.5em;
@@ -47,17 +46,16 @@ body {
     max-width: 100%;
   }
   
-  #visual_hierarchy, #white_space, #contrast {
+  .step1, .step2 {
     margin-top: 100px;
-    border: 2px solid;
     align-items: center;
   }
   
   footer{
     grid-column: 4/8;
     grid-row: 10;
-    background-color: #900603;
-    color:aqua;
+    background-color: #00297B;
+    color:white;
     max-height: 55px;
     display:flex;
     justify-content: space-evenly;
