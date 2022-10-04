@@ -10,17 +10,23 @@
     background-color: white;
     grid-template-columns: 110px auto;
     align-items: center;
-    /*border: 2px solid;*/
   }
-  
-  a {
+
+  nav a {
+    display:block;
+    text-align: center;
+    padding: 5px;
     color: rgb(25, 172, 205);
     font-size: 1.1em; 
-    padding: 0.5em;
+    padding: 0.80em;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
   }
   
   a:hover{ 
-    border: 3px solid;
     color: #900603;
   }
   
@@ -46,7 +52,7 @@
     max-width: 100%;
   }
   
-  .step1, .step2 {
+  .step1, .step2, .step3, .step4, .step5 {
     margin-top: 100px;
     align-items: center;
   }
