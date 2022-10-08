@@ -1,8 +1,8 @@
 @media only screen and (min-width: 900px) {
 
     .head, footer  {
-        max-width: 1000px;
-        margin: 50px auto;
+        max-width: 95%;
+        /*margin: 50px auto;*/
     } 
 
     .step1, .step2, .step3, .step4, .step5 {
