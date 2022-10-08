@@ -4,3 +4,4 @@ document.querySelector("#lastModified").textContent = date;
 let a = new Date();
 let b = a.getFullYear();
 document.getElementById("currentYear").textContent = b;
+
