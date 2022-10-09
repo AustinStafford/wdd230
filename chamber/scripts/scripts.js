@@ -17,4 +17,4 @@ function togglerMenu() {
 }
 
 const x = document.getElementById("hamburgerBtn")
-x.onclick = toggleMenu;
+x.onclick = togglerMenu;

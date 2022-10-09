@@ -27,7 +27,7 @@ body {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: white;
   }
 
   nav ul {
@@ -40,8 +40,13 @@ body {
       display: block;
       padding: .8rem 2vw;
       text-decoration: none;
-      color: #333;
+      color: white;
       border-top:  1px solid rgba(0,0,0,0.5);
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+      /*display:flex;*/
+      text-align: center;
+      font-size: 1.1em; 
+      margin-left: 14px;
   }
 
   nav ul li.active a {
@@ -50,9 +55,10 @@ body {
   }
 
   nav ul li a:hover {
-      background-color: rgba(0,0,0,0.3);
+    color: white;
+    text-shadow: 0px 0px 8px white;
   }
-
+  
   nav ul {display:none;}
   nav ul.open {display: block;}
 
@@ -60,7 +66,7 @@ body {
   #hamburgerBtn span:nth-child(2) {display: none;}
 
   #hamburgerBtn.opne span:nth-child(1) {display: none;}
-  #hamburgerBtn,open span:nth-child(2) {display: block;}
+  #hamburgerBtn.open span:nth-child(2) {display: block;}
 
   nav a {
     display:flex;
@@ -81,15 +87,6 @@ body {
     top: 220px;
   }
 
-  li {
-    list-style: none;
-  }
-  
-  a:hover{ 
-    color: white;
-    text-shadow: 0px 0px 8px white;
-  }
-  
   h2, h3, h4, h5, h6 {
     background-color: #9b111e;
     color: white;
