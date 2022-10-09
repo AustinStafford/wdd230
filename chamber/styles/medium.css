@@ -25,6 +25,12 @@
         justify-content: center;
     }
 
+    #upToDate {
+        position:absolute;
+        left: 3.5%;
+        top: 220px;
+      }
+
     .step1, .step2, .step3, .step4, .step5 {
         max-width: 800px;
         margin: 30px auto;

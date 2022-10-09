@@ -81,11 +81,11 @@ body {
     font-size: 14px;
   }
 
-  #upToDate {
+  /*#upToDate {
     position:absolute;
     left: 3.5%;
     top: 220px;
-  }
+  }*/
 
   h2, h3, h4, h5, h6 {
     background-color: #9b111e;
