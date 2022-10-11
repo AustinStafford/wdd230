@@ -6,8 +6,6 @@ body {
   }
   
   header {
-    display: flex;
-    flex-direction: row;
     top: 0;
     background: linear-gradient(269.28deg, #052185 8.88%, rgba(133, 5, 5, 0.42) 102.12%, rgba(5, 33, 133, 0) 102.13%, #FF0000 102.13%);
     color:white;
@@ -17,7 +15,8 @@ body {
 
   nav {
     display:flex;
-    align-items: right;
+    flex-direction: row;
+    /* /align-items: right;*/ 
     /*border: 3px solid black;*/
     margin-left: 380px;
   }
@@ -81,11 +80,11 @@ body {
     font-size: 14px;
   }
 
-  /*#upToDate {
-    position:absolute;
+  #upToDate {
+    display: block;
     left: 3.5%;
     top: 220px;
-  }*/
+  }
 
   h2, h3, h4, h5, h6 {
     background-color: #9b111e;
@@ -99,12 +98,10 @@ body {
   }
   
   h1 {
-    line-height: 5;
-    text-align: center;
+    display: inline-block;
   }
   
   #img {
-    display: block;
     margin: 12px;
     max-width: 100%;
   }
