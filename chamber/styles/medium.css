@@ -5,28 +5,32 @@
         margin: 30px auto;
     }
 
-    nav button {display: none;}
+    /*nav button {display: hide;}*/
 
-    nav ul#primaryNav {
+    /*nav ul#navButton {
         display: flex;
         justify-content: center;
         margin-left: 2vw;
         border-left: 1px solid rgba(0,0,0,0.3);
-    }
+    }*/
 
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
+        font-size: 18px;
     }
 
-    nav ul {
+    /* nav ul {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
     .step1, .step2, .step3, .step4, .step5 {
         max-width: 800px;
         margin: 30px auto;
     }
 } 
+
+/* ctrl k ctrl c
+to undo ctrl u*/

@@ -2,7 +2,7 @@ body {
     /*background-color: white;*/
     font-family: oxygen, sans-serif;
     height: 100vh;
-    font-size: 18px;
+    /*font-size: 18px;*/
   }
   
   header {
@@ -19,6 +19,7 @@ body {
     /* /align-items: right;*/ 
     /*border: 3px solid black;*/
     margin-left: 380px;
+    flex: right;
   }
 
   nav button {
@@ -26,7 +27,7 @@ body {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: white;
+    color: black;
   }
 
   nav ul {
@@ -58,27 +59,7 @@ body {
     text-shadow: 0px 0px 8px white;
   }
   
-  nav ul {display:none;}
-  nav ul.open {display: block;}
-
-  #hamburgerBtn span:nth-child(1) {display: block;}
-  #hamburgerBtn span:nth-child(2) {display: none;}
-
-  #hamburgerBtn.opne span:nth-child(1) {display: none;}
-  #hamburgerBtn.open span:nth-child(2) {display: block;}
-
-  nav a {
-    display:flex;
-    text-align: right;
-    padding: 5px;
-    color: white;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    font-size: 1.1em; 
-    padding: 0.80em;
-    text-decoration: none;
-    margin-left: 14px;
-    font-size: 14px;
-  }
+  nav ul.hide {display: none;}
 
   #upToDate {
     display: block;
