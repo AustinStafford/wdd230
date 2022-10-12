@@ -16,7 +16,7 @@ body {
   nav {
     display:flex;
     flex-direction: row;
-    /* /align-items: right;*/ 
+    align-items: center;
     /*border: 3px solid black;*/
   } 
 

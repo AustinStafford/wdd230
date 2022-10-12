@@ -41,11 +41,14 @@
         /* /align-items: right;*/ 
         /*border: 3px solid black;*/
         /* margin-left: 380px; */
-        flex: center;
       } 
 
-    .step1, .step2, .step3, .step4, .step5 {
+    #upToDate {
+        margin-top: 30px;
+      } 
+
+    /* .step1, .step2, .step3, .step4, .step5 {
         max-width: 900px;
         margin: 50px auto;
-    }
+    } */
 } 
