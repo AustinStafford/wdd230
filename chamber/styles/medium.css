@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
 
     .head, footer {
         max-width: 900px;
@@ -32,6 +32,30 @@
         margin-bottom: 10px;
         min-height: 200px;
       } */
+
+      /* .call_to_action {
+
+    } */
+
+    /* .news {
+
+    } */
+
+    /* .events {
+
+    } */
+
+    /* .weather {
+
+    } */
+
+    /* .join {
+
+    } */
+
+    /* .spotlights {
+
+    } */
 
     .step1, .step2, .step3, .step4, .step5 {
         max-width: 800px;

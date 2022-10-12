@@ -51,9 +51,42 @@
         display:grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto;
+        border: 3px solid black;
     }
 
     /* .call_to_action, .news, .events, .weather, .join, .spotlights {
 
     } */
+
+    .call_to_action {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        min-height: 400px;
+    } 
+
+    .news {
+        grid-column: 2/4;
+        grid-row: 3;
+    } 
+
+    .events {
+        grid-column: 1;
+        grid-row: 1;
+    } 
+
+    .weather {
+        grid-column: 1;
+        grid-row: 2;
+    } 
+
+     .join {
+        grid-column: 1;
+        grid-row: 3;
+    } 
+
+     .spotlights {
+        grid-column: 4;
+        grid-row: 1/4; 
+        min-height: 600px;
+    } 
 } 
