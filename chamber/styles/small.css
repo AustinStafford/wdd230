@@ -92,7 +92,7 @@ body {
     align-items: center;
   }
   
-  .call_to_action, .news, .events, .weather, .join, .spotlights {
+  .call_to_action, .news, .events, .weather, .join, .spotlight_one, .spotlight_two, .spotlight_three {
     border: 3px solid black;
     margin-bottom: 10px;
     min-height: 200px;

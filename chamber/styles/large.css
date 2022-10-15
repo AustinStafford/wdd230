@@ -55,14 +55,14 @@
         margin: auto;
     }
 
-    /* .call_to_action, .news, .events, .weather, .join, .spotlights {
-
-    } */
+    .call_to_action, .news, .events, .weather, .join, .spotlight_one, .spotlight_two, .spotlight_three {
+        margin-bottom: 0px;
+    } 
 
     .call_to_action {
         grid-column: 2/4;
-        grid-row: 1/4;
-        /* min-height: 400px; */
+        grid-row: 1/3;
+        min-height: 430px; 
     } 
 
     .news {
@@ -80,14 +80,24 @@
         grid-row: 2;
     } 
 
-     .join {
+    .join {
         grid-column: 1;
         grid-row: 3;
     } 
 
-     .spotlights {
+    .spotlight_one {
         grid-column: 4;
-        grid-row: 1/3; 
+        grid-row: 1; 
+    }
+
+    .spotlight_two {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .spotlight_three {
+        grid-column: 4;
+        grid-row: 3;
+    }
         /* min-height: 600px; */
-    } 
 } 
