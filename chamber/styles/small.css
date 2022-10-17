@@ -91,12 +91,50 @@ body {
     margin-top: 50px;
     align-items: center;
   }
+
+  .dogimg, .firstimg, .secondimg, .thirdimg {
+    float:right;
+    margin: 5px;
+  }
   
   .call_to_action, .news, .events, .weather, .join, .spotlight_one, .spotlight_two, .spotlight_three {
     border: 3px solid black;
     margin-bottom: 10px;
     min-height: 200px;
+    text-align: justify;
   }
+
+  /*.call_to_action {
+    
+} */
+
+.news {
+    color: white;
+} 
+
+.events {
+    color: white;
+} 
+
+.weather {
+    color: white;
+} 
+
+.join {
+    color: white;
+} 
+
+/*.spotlight_one {
+
+}
+
+.spotlight_two {
+    
+}
+
+.spotlight_three {
+    
+}*/
   
   footer{
     grid-column: 4/8;

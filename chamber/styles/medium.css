@@ -28,11 +28,9 @@
         grid-gap: 1em;
       }
       
-      /* .call_to_action, .news, .events, .weather, .join, .spotlights {
-        border: 3px solid black;
-        margin-bottom: 10px;
-        min-height: 200px;
-      } */
+      .call_to_action, .news, .events, .weather, .join, .spotlights {
+        min-height: 300px;
+      } 
 
       /* .call_to_action {
 
