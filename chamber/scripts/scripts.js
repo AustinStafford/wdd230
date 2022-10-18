@@ -34,10 +34,10 @@ function toggleMenu() {
 //let banner = getElementById('banner');
 //banner.scr = new Date().getDate();
 
+const now = new Date();
+const currentDate = now.getDay();
+const messageBanner = document.querySelector('#bannerMessage');
 
-
-if (upToDate.getDay == 1) {
-    let banner = document.createElement('banner');
-    bannerMessage = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.!"
-    document.querySelector('#banner').textContent = banner;
+if (currentDate == 1 || currentDate == 2)  {
+    messageBanner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
