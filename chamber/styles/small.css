@@ -66,7 +66,7 @@ body {
     top: 220px;
   }
 
-  h2, h3, h4, h5, h6 {
+  h2, h3, h4, h5, h6, .banner{
     background-color: #9b111e;
     color: white;
     align-items: center;
@@ -75,6 +75,7 @@ body {
     line-height:1;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px #000000;
+    text-align: center;
   }
   
   h1 {

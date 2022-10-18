@@ -39,5 +39,5 @@ const currentDate = now.getDay();
 const messageBanner = document.querySelector('#bannerMessage');
 
 if (currentDate == 1 || currentDate == 2)  {
-    messageBanner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+    messageBanner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 🤝🏼";
 }
