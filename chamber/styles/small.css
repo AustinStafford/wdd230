@@ -103,6 +103,7 @@ body {
     margin-bottom: 10px;
     min-height: 200px;
     text-align: justify;
+    justify-content: center;
   }
 
   /*.call_to_action {
@@ -117,9 +118,9 @@ body {
     color: white;
 } 
 
-.weather {
-    color: white;
-} 
+/*.weather {
+    /*color: white;
+} */
 
 .join {
     color: white;
