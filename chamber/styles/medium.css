@@ -1,8 +1,7 @@
 @media only screen and (min-width: 500px) {
 
     .head, footer {
-        /*max-width: 900px;*/
-        max-width: 100%;
+        max-width: 800px;
         margin: 30px auto;
     }
 
@@ -23,38 +22,49 @@
 
     main {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto; 
         grid-template-rows: auto auto auto auto auto auto;
-        grid-gap: 1em;
+        grid-gap: 1em; 
+        /* display: flex; */
       }
       
-      .call_to_action, .news, .events, .weather, .join, .spotlights {
+    .call_to_action, .news, .events, .weather, .join, .spotlights {
         min-height: 300px;
       } 
 
-      /* .call_to_action {
+    /* .column_one {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
 
+    .column_two {
+        justify-content: flex-end;
+        flex-direction: column;
     } */
 
-    /* .news {
+    /* .call_to_action {
+        
+    } 
 
-    } */
+    .news {
+       
+    } 
 
-    /* .events {
-
-    } */
+    .events {
+        
+    } 
 
     .weather {
-        justify-content: center;
-    } 
+        
+    }  */
 
 
     /* .join {
 
     } */
 
-    /* .spotlights {
-
+    /*.spotlights {
+        justify-content: flex-end;
     } */
 
     .step1, .step2, .step3, .step4, .step5 {

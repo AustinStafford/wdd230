@@ -24,10 +24,10 @@
         <nav>
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="navButton" class="hide">
-                <li><a href="color-scheme.html">Page 1</a></li>
-                <li><a href="target-audience.html">Page 2</a></li>
-                <li><a href="typography.html">Page 3</a></li>
-                <li><a href="color-scheme.html">Page 4</a></li>
+                <li><a href="color-scheme.html">Discover</a></li>
+                <li><a href="target-audience.html">Directory</a></li>
+                <li><a href="typography.html">Join</a></li>
+                <li><a href="color-scheme.html">Contact</a></li>
                 <li><a href="target-audience.html">Social Media 1</a></li>
                 <li><a href="typography.html">Social Media 2</a></li>
             </ul>
@@ -36,9 +36,22 @@
         <div class = "banner"><span id = "bannerMessage"></span></div>
     </div>
     <main>
-        <div class = "call_to_action">
+        <div class="call_to_action">
             <h2>Hero Image & Call to Action</h2>
-            <img class = "dogimg" src="images/dogpic(2).jpg" alt="Virginia local dog hero, Buddy.">
+            <!--<img class = "dogimg" src="images/dogpic(2).jpg" alt="Virginia local dog hero, Buddy.">-->
+            <picture class = "heroimg">
+                <source media="(max-width: 450px)" srcset="/chamber/images/wdd230-org(small1).jpg">
+                <source media="(max-width: 800px)" srcset="/chamber/images/wdd230-org(medium2).jpg">
+                <!-- <source media="(max-width: 750px)" srcset="/chamber/images/wdd230-org(large).jpg"> -->
+                <img src="/chamber/images/wdd230-org(large2).png" alt="Hero image.">
+                <!-- <img src="/chamber/images/wdd230-org.jpg" alt="Hero image."> -->
+            </picture>
+
+            <!--<img src="images/golgotha.jpg" alt="golgotha" sizes="50vw" srcset="images/golgotha200.jpg 200w,
+                     images/golgotha500.jpg 500w,
+                     images/golgotha800.jpg 800w,
+                     images/golgotha1100.jpg 1100w
+                     ">-->
             <p>We all know where unowned animimals such as dogs and cats end up most of the time, the pound. 
                After a certain amount of time, if an animal is not adopted, it is put down, regardless of its health.
                Because of this, there are many anilmals' lives that are cut short. But what if this could change? What if 
@@ -51,7 +64,7 @@
             </p>
         </div>
 
-        <div class ="news">
+        <div class="news">
             <h3>News</h3>
             <p>We all know where unowned animimals such as dogs and cats end up most of the time, the pound. 
                 After a certain amount of time, if an animal is not adopted, it is put down, regardless of its health.
@@ -65,7 +78,7 @@
              </p>
         </div>
 
-        <div class = "events">
+        <div class="events">
             <h3>Events</h3>
             <p>Alexander Rascal just graduated from Glenn Allen High School on June 7th 
                 this past summer. During his high school career, Alexander discovered his
@@ -76,12 +89,15 @@
              </p>
         </div>
 
-        <div class = "weather">
+        <div class="weather">
             <h3>Weather</h3>
-            <div id="ww_8e5dfc44fd574" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","ids":["wl704"],"font":"Arial","sl_ics":"one_a","sl_sot":"fahrenheit","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://sharpweather.com/weather_virginia/week/" id="ww_8e5dfc44fd574_u" target="_blank">weather this week Virginia</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_8e5dfc44fd574"></script>
+                <p>Temperature: <span id="vaTemperature">60</span></p>
+                <p>Wind Speed: <span id="vaSpeed">2</span></p>
+                <p>Wind Chill: <span id="vaChill"></span></p>
+            <!--<div id="ww_8e5dfc44fd574" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","ids":["wl704"],"font":"Arial","sl_ics":"one_a","sl_sot":"fahrenheit","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://sharpweather.com/weather_virginia/week/" id="ww_8e5dfc44fd574_u" target="_blank">weather this week Virginia</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_8e5dfc44fd574"></script>-->
         </div>
 
-        <div class = "join">
+        <div class="join">
             <p>On September 9th, Kevin Rank returned home from serving a 2 year tour over seas. 
                 This was his 3rd tour while in the Army. Kevin first inlisted soon after the attacks 
                 of 9/11. After serving in the Army for 21 years, he plans to retire at the end of this year. 
@@ -94,7 +110,7 @@
              </p>
         </div>
 
-        <div class = "spotlight_one">
+        <div class="spotlight_one">
             <h3>Spotlight 1</h3>
             <img class = "firstimg" src="images/spotlightone(2).jpg" alt="Local high school graduate.">
             <p>Alexander Rascal just graduated from Glenn Allen High School on June 7th 
@@ -106,7 +122,7 @@
             </p>
         </div>
 
-        <div class = "spotlight_two">
+        <div class="spotlight_two">
             <h3>Spotlight 2</h3>
             <img class = "secondimg" src="images/spotlighttwo(2).jpg" alt="Local high school graduate.">
             <p>Leslie Murkel graduated from Manchester High school over the summer. THe Knight Alumni 
@@ -119,7 +135,7 @@
             </p>
         </div>
 
-        <div class = "spotlight_three">
+        <div class="spotlight_three">
             <h3>Spotlight 3</h3>
             <img class = "thirdimg" src="images/spotlightthree(1).jpg" alt="Local Virginia man.">
             <p>On September 9th, Kevin Rank returned home from serving a 2 year tour over seas. 

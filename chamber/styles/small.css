@@ -137,6 +137,10 @@ body {
 .spotlight_three {
     
 }*/
+
+ul {
+  list-style: none;
+}
   
   footer{
     grid-column: 4/8;
