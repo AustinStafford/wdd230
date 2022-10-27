@@ -93,7 +93,7 @@ body {
     align-items: center;
   }
 
-  .dogimg, .firstimg, .secondimg, .thirdimg {
+  .dogimg, .heroimg, .firstimg, .secondimg, .thirdimg {
     float:right;
     margin: 5px;
   }
