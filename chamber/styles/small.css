@@ -66,6 +66,11 @@ body {
     top: 220px;
   }
 
+
+  .social_media {
+    justify-content: space-evenly;
+  }
+
   h2, h3, h4, h5, h6, .banner{
     background-color: #9b111e;
     color: white;
