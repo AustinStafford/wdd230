@@ -41,3 +41,42 @@ const messageBanner = document.querySelector('#bannerMessage');
 if (currentDate == 1 || currentDate == 2)  {
     messageBanner.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 🤝🏼";
 }
+
+// Make sure the images that you use are optimized for the layout.
+// The images must not load until the user scrolls. Use a lazy loading technique.
+// Using local storage, display the amount of time in days (rounded to a whole number)
+// between user visits to this page by the user's agent (browser). You may elect to display
+// this information where you deem fit on the page.
+
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+const loadImages = (image) => {
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
+};
+
+imagesToLoad.forEach((img) => {
+    loadImages(img);
+})
+
+if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+            loadImages(item.target);
+            observer.unobserve(item.target);
+        }
+    });
+});
+
+imagesToLoad.forEach((img) => {
+    observer.observe(img);
+});
+
+} else {
+    imagesToLoad.forEach((img) => {
+        loadImages(img);
+    });
+}
+

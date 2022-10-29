@@ -98,6 +98,8 @@ body {
     align-items: center;
   }
 
+  /* CSS for index.html */
+
   .dogimg, .heroimg, .firstimg, .secondimg, .thirdimg {
     float:right;
     margin: 5px;
@@ -142,6 +144,11 @@ body {
 .spotlight_three {
     
 }*/
+
+
+/* CSS for discover.html */
+
+
 
 ul {
   list-style: none;
