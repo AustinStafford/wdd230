@@ -148,6 +148,11 @@ body {
 
 /* CSS for discover.html */
 
+.discover {
+  display: block;
+  align-items: center;
+}
+
 
 
 ul {
