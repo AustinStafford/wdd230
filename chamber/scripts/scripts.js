@@ -80,3 +80,9 @@ imagesToLoad.forEach((img) => {
     });
 }
 
+// Using local storage, display the amount of time in days 
+// (rounded to a whole number) between user visits to this 
+// page by the user's agent (browser). You may elect to 
+// display this information where you deem fit on the page.
+
+let visitDays = window.localStorage.setItem(vistis, numberOfVisits);

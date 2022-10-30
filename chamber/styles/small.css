@@ -153,6 +153,9 @@ body {
   align-items: center;
 }
 
+.one, .two, .three, .four, .five {
+  margin: 10px;
+}
 
 
 ul {
