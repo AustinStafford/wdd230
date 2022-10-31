@@ -83,7 +83,7 @@
         flex-direction: column;
     }
 
-    .one, .two, .three, .four, .five {
+    .img_info {
         margin: 10px;
         position: relative;
         margin-right: 10px;
@@ -103,11 +103,11 @@
         transition: visibility 0s, opacity 0.5s linear;
        }
        
-       .one, .two, .three, .four, .five:hover{
+       .one, .two, .three, .four, .five:hover {
         cursor: pointer;
        }
        
-       .img_info:hover div{
+       .img_info:hover div {
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
