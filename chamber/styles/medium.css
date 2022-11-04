@@ -83,6 +83,10 @@
         flex-direction: column;
     }
 
+    .statistics p {
+        height: 300px;
+        width: 400px;
+    }
     .one, .two, .three, .four, .five{
         margin: 10px;
         position: relative;
