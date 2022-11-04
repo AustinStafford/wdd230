@@ -107,16 +107,64 @@
         transition: visibility 0s, opacity 0.5s linear;
        }
        
-       .one, .two, .three, .four, .five:hover {
+       .one:hover { 
         cursor: pointer;
        }
        
-       .one, .two, .three, .four, .five:hover .img_info {
+       .one:hover .img_info {
+        height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
        } 
+       .two:hover { 
+        cursor: pointer;
+       }
+       
+       .two:hover .img_info {
+        height: 200px;
+        width: 150px;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.7; 
+       }  
+
+       .three:hover { 
+        cursor: pointer;
+       }
+       
+       .three:hover .img_info {
+        height: 200px;
+        width: 150px;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.7; 
+       }  
+
+       .four:hover { 
+        cursor: pointer;
+       }
+       
+       .four:hover .img_info {
+        height: 200px;
+        width: 150px;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.7; 
+       }  
+
+       .five:hover { 
+        cursor: pointer;
+       }
+       
+       .five:hover .img_info {
+        height: 200px;
+        width: 150px;
+        padding: 8px 15px;
+        visibility: visible;
+        opacity: 0.7; 
+       }  
 } 
 
 /* ctrl k ctrl c
