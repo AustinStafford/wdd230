@@ -157,11 +157,21 @@ body {
   margin: 10px;
 }
 
-
 ul {
   list-style: none;
 }
-  
+  .local_storage {
+    background-color: #9b111e;
+    color: white;
+    align-items: center;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    line-height:1;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px #000000;
+    text-align: center;
+  }
+
   footer{
     grid-column: 4/8;
     grid-row: 10;

@@ -1,9 +1,10 @@
 @media only screen and (min-width: 800px) {
 
-    .head, main, footer  {
+    .head, footer  {
         max-width: 100%;
         /*margin: 50px auto;*/
     } 
+
     header {
         display: grid;
         grid-template-rows: auto 50px;
@@ -43,6 +44,11 @@
         /* margin-left: 380px; */
       } 
 
+      .social_media {
+        justify-self: end;
+        padding-right: 20px;
+      }
+
     #upToDate {
         margin-top: 30px;
       } 
@@ -53,6 +59,7 @@
         grid-template-rows: auto auto auto;
         border: 3px solid black;
         margin: auto;
+        max-width: 900px;
     }
 
     .call_to_action, .news, .events, .weather, .join, .spotlight_one, .spotlight_two, .spotlight_three {
@@ -101,5 +108,10 @@
         grid-column: 4;
         grid-row: 3;
     }
+
+    .local_storage {
+        max-width: 900px;
+        margin: auto;
+  }
         /* min-height: 600px; */
 } 
