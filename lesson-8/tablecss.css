@@ -1,3 +1,8 @@
+.head {
+    display: flex;
+    justify-content: center;
+}
+
 :root {
     --back: rgb(214, 16, 16);
     --back2: hsla(1, 89%, 36%, 0.727);
