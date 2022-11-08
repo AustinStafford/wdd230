@@ -1,5 +1,6 @@
 @media only screen and (min-width: 500px) {
 
+    /* ----------HEAD/FOOTER---------- */
     .head, footer {
         max-width: 800px;
         margin: 30px auto;
@@ -14,12 +15,14 @@
         border-left: 1px solid rgba(0,0,0,0.3);
     }*/
 
+    /* ----------NAVIGATION---------- */
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
         font-size: 18px;
     }
 
+    /* ----------MAIN---------- */
     main {
         display: grid;
         grid-template-columns: auto auto; 
@@ -28,6 +31,7 @@
         /* display: flex; */
       }
       
+    /* ----------index.html---------- */
     .call_to_action, .news, .events, .weather, .join, .spotlights {
         min-height: 300px;
       } 
@@ -67,7 +71,7 @@
         justify-content: flex-end;
     } */
 
-    /* CSS for discover page*/
+    /* ----------discover.html---------- */
 
     .discover {
         display: flex;
@@ -94,7 +98,7 @@
        }
        
        /* .one div, .two div, .three div, .four div, .five div{ */
-        .img_info {
+    .img_info {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -105,78 +109,84 @@
         visibility: hidden;
         -webkit-transition: visibility 0s, opacity 0.5s linear; 
         transition: visibility 0s, opacity 0.5s linear;
-       }
+    }
 
-       .statistics p {
+    .statistics p {
         font-size: 30px;
         line-height: 36px;
         text-align: center;
         margin: 0;
-       } 
+    } 
        
-       .one:hover { 
+    .one:hover { 
         cursor: pointer;
-       }
+    }
        
-       .one:hover .img_info {
+    .one:hover .img_info {
         height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
-       } 
-       .two:hover { 
+    } 
+    
+    .two:hover { 
         cursor: pointer;
-       }
+    }
        
-       .two:hover .img_info {
+    .two:hover .img_info {
         height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
-       }  
+    }  
 
-       .three:hover { 
+    .three:hover { 
         cursor: pointer;
-       }
+    }
        
-       .three:hover .img_info {
+    .three:hover .img_info {
         height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
-       }  
+    }  
 
-       .four:hover { 
+    .four:hover { 
         cursor: pointer;
-       }
+    }
        
-       .four:hover .img_info {
+    .four:hover .img_info {
         height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
-       }  
+    }  
 
-       .five:hover { 
+    .five:hover { 
         cursor: pointer;
-       }
+    }
        
-       .five:hover .img_info {
+    .five:hover .img_info {
         height: 200px;
         width: 150px;
         padding: 8px 15px;
         visibility: visible;
         opacity: 0.7; 
-       }  
+    }  
 
-       .local_storage {
+    .local_storage {
         flex-flow: column wrap;
 
-       }
+    }
+
+    /* ----------join.html---------- */
+    form label.sbs {
+        padding: 0.4rem 0;
+    }
 } 
 
 /* ctrl k ctrl c

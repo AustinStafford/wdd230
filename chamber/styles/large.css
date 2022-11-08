@@ -1,10 +1,12 @@
 @media only screen and (min-width: 800px) {
 
+    /* ----------HEAD/FOOTER---------- */
     .head, footer  {
         max-width: 100%;
         /*margin: 50px auto;*/
     } 
 
+    /* ----------HEADER---------- */
     header {
         display: grid;
         grid-template-rows: auto 50px;
@@ -16,6 +18,7 @@
         display: inline-block;
     }
 
+    /* ----------NAVIGATION---------- */
     nav button {
         display: none;
     }
@@ -53,15 +56,7 @@
         margin-top: 30px;
       } 
 
-    .discover {
-        display:grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto;
-        border: 3px solid black;
-        margin: auto;
-        max-width: 900px;
-    }
-
+    /* ----------index.html---------- */
     .call_to_action, .news, .events, .weather, .join, .spotlight_one, .spotlight_two, .spotlight_three {
         margin-bottom: 0px;
     } 
@@ -109,6 +104,17 @@
         grid-row: 3;
     }
 
+    /* ----------discover.html---------- */
+    .discover {
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        border: 3px solid black;
+        margin: auto;
+        max-width: 900px;
+    }
+
+     /* ----------local storage---------- */
     .local_storage {
         max-width: 900px;
         margin: auto;
