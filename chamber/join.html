@@ -45,38 +45,50 @@
     <main class = "join">
         <!-- The form page must contain the following form elements, types, and attributes.
 
-        Use a form field with a get method and action that points to a confirmation page named "thankyou.html".
+        Use a form field with a get method and action that points to a confirmation page named "thankyou.html".-->
+            <form method ="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Join Registration</legend>
+        <!-- A first name input of type text and is required. -->
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+        <!-- A last name input of type text and is required. -->
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+        <!-- A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces
+        with a minimum of seven characters using a regular expressionLinks to an external site. pattern. -->
+                    <label class="top">Business Position <input type="text" name="bposition"></label>
+        <!-- A email using input of type email that is required and provides a placeholder which contains an example email input. -->
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <!-- A cell phone number using input of type tel and is required. -->
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+        <!-- A business name/title text field that is required -->
 
-        A first name input of type text and is required.
+                </fieldset>
 
-        A last name input of type text and is required.
+                <fieldset>
+        <!-- A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level.
 
-        A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces
-        with a minimum of seven characters using a regular expressionLinks to an external site. pattern.
-
-        A email using input of type email that is required and provides a placeholder which contains an example email input.
-
-        A cell phone number using input of type tel and is required.
-
-        A business name/title text field that is required
-
-        A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level.
-
-        There are four membership levels.
-        Membership level benefits should be displayed to the side of the form in larger views.
-        NP Membership is for non profit organizations and there is no fee.
-        Bronze Membership.
-        Silver Membership
-        Gold Membership
-        This memberships have increasing costs as well as increased benefits per level like trainings, 
-        advertising (like on the home page spotlights), event discounts, etc.
+        There are four membership levels. -->
+                    <legend>Membership Levels</legend>
+        <!-- Membership level benefits should be displayed to the side of the form in larger views.
+        NP Membership is for non profit organizations and there is no fee. -->
+                    <div>Audience</div>
+                    <label class="sbs"><input type="radio" name="audience" value="np">NP Membership</label>
+        <!-- Bronze Membership. -->
+                    <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze Membership</label>
+        <!-- Silver Membership -->
+                    <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership</label>
+        <!-- Gold Membership -->
+                    <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership</label>
+        <!-- This memberships have increasing costs as well as increased benefits per level like trainings, 
+        advertising (like on the home page spotlights), event discounts, etc. -->
+                </fieldset>
 
         A business description textarea where the user can briefly describe their business.
 
         A hidden field that contains the current date and time that the form was loaded by the user.
 
-        A form submission button using input of type submit that is properly labeled.
-
+        <!-- A form submission button using input of type submit that is properly labeled. -->
+            <input type="submit" value="Join" class="submitBtn">
         Each field element should have an appropriate name attribute
 
         Each field element, including the textarea, should be encased in a <label> tag to support accessibilityLinks to an external site.
@@ -87,29 +99,7 @@
         This page should load when the user has successfully submitted the form. 
         The design should follow your site pattern and does not need to have a lot of actual content. -->
 
-        <form method ="get" action="thanks.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Course Information</legend>
-                <div>Audience</div>
-                <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
-                <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
-    
-                <div>Software Needed</div>
-                <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-                <label class="sbs"><input type="checkbox" name="code" value="yes">Coding</label>
-                <label class="sbs"><input type="checkbox" name="process" value="yes">Preprocessor</label>
-                <label class="sbs"><input type="checkbox" name="client" value="yes">FTP Client</label>
-            </fieldset>
     
             <fieldset>
                 <legend>Funding</legend>
@@ -131,8 +121,6 @@
                 <label class="top">How Many Authors<input type="number" name="authors"></label>
     
             </fieldset>
-    
-            <input type="submit" value="Propose My Course" class="submitBtn">
     
         </form>
 
