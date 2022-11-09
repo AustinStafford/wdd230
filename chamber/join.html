@@ -83,10 +83,14 @@
         advertising (like on the home page spotlights), event discounts, etc. -->
                 </fieldset>
 
-        A business description textarea where the user can briefly describe their business.
-
-        A hidden field that contains the current date and time that the form was loaded by the user.
-
+                <fieldset>
+                    <legend>Message</legend>
+        <!-- A business description textarea where the user can briefly describe their business. -->
+                    <label for="comments"><textarea name="message" placeholder="Briefly describe your business."></textarea>Message: </label>
+        <!-- A hidden field that contains the current date and time that the form was loaded by the user. -->
+        <label class="top">Request Date<input type="date" name="completeDate"></label>
+		<input type="hidden" value="4">
+                </fieldset>
         <!-- A form submission button using input of type submit that is properly labeled. -->
             <input type="submit" value="Join" class="submitBtn">
         Each field element should have an appropriate name attribute
@@ -98,8 +102,6 @@
         Create a new page named "thankyou.html" that expresses gratitude for filling out the form. 
         This page should load when the user has successfully submitted the form. 
         The design should follow your site pattern and does not need to have a lot of actual content. -->
-
-                <label class="top">Website <input type="url" name="url" placeholder="https://"></label>
     
             <fieldset>
                 <legend>Funding</legend>
@@ -117,8 +119,6 @@
                         <object value="security">Cyper Security</object>
                     </select>
                 </label>
-    
-                <label class="top">How Many Authors<input type="number" name="authors"></label>
     
             </fieldset>
     
