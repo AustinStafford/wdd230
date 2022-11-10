@@ -240,6 +240,24 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
+/*----------- thankyou.html --------------*/
+.thankyou {
+  display: block;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.thankyou_message {
+  text-align: justify;
+  justify-content: center;
+}
+
+.thankyou_message p {
+  border: #000000 solid 1px;
+}
+
+
 /* ----------FOOTER---------- */
 footer{
   grid-column: 4/8;

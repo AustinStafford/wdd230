@@ -187,6 +187,16 @@
     form label.sbs {
         padding: 0.4rem 0;
     }
+
+    /*----------- thankyou.html --------------*/
+    .thankyou {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .thankyou_message {
+        width: 400px;
+    }
 } 
 
 /* ctrl k ctrl c

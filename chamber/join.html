@@ -88,11 +88,11 @@
         <!-- A business description textarea where the user can briefly describe their business. -->
                     <label for="comments"><textarea name="message" placeholder="Briefly describe your business."></textarea>Message: </label>
         <!-- A hidden field that contains the current date and time that the form was loaded by the user. -->
-        <label class="top">Request Date<input type="date" name="completeDate"></label>
-		<input type="hidden" value="4">
+        <input type="hidden" name="completeDate" value="">
                 </fieldset>
         <!-- A form submission button using input of type submit that is properly labeled. -->
-            <input type="submit" value="Join" class="submitBtn">
+            <button><a href="thankyou.html"><input type="submit" value="Join" class="submitBtn"></a></button>
+            
         Each field element should have an appropriate name attribute
 
         Each field element, including the textarea, should be encased in a <label> tag to support accessibilityLinks to an external site.
