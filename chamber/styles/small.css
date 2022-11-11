@@ -222,11 +222,11 @@ form label.level {
 }
 
 form label.info input:required {
-  border-left: red solid 6px;
+  border-left: rgb(211, 0, 0) solid 6px;
 }
 
 form label.info input:required:valid {
-  border-left: green solid 6px;
+  border-left: rgb(1, 170, 1) solid 6px;
 }
 
 form input.submitBtn {
