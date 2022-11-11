@@ -184,8 +184,39 @@
     }
 
     /* ----------join.html---------- */
-    form label.sbs {
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    form label.level {
         padding: 0.4rem 0;
+    }
+    
+    form {
+        flex-direction: column;
+    }
+
+    .np_benefits h3, .bronze_benefits h3, .silver_benefits h3, .gold_benefits h3 {
+        background-color: #9b111e;
+        box-shadow: 5px 5px 5px #000000;
+        position: relative;
+    }
+    
+    .benefits {
+        flex-direction: column;
+    }
+    
+    .benefits div {
+        height: 200px;
+        width: 350px;
+    }
+
+    .benefits ul li {
+        color: black;
+        margin-top: 10px;
+        list-style-type: disc;
     }
 
     /*----------- thankyou.html --------------*/

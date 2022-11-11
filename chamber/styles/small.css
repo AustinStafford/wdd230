@@ -69,7 +69,6 @@ body {
     top: 220px;
   }
 
-
   .social_media {
     justify-content: space-evenly;
   }
@@ -169,40 +168,41 @@ body {
 ul {
   list-style: none;
 }
-  .local_storage {
-    background-color: #9b111e;
-    color: white;
-    align-items: center;
-    padding: 0.5em;
-    padding-left: 1.5em;
-    line-height:1;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px #000000;
-    text-align: center;
-  }
+
+.local_storage {
+  background-color: #9b111e;
+  color: white;
+  align-items: center;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  line-height:1;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 5px #000000;
+  text-align: center;
+}
 
   /*----------- FORM --------------*/
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445ba9;
+  border: 1px solid #052185;
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
 
 form legend {
-  color: #445ba9;
+  color: #052185;
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
 
-form label.top, form div {
+form label.info, form div {
   display: block;
   padding-top: 1rem;
   color: #9c2c13;
   font-size: 0.8rem;
 }
 
-form label.top input, form label.top select {
+form label.info input, form label.info select {
   /* -webkit-appearance: none; */
   display: block;
   font-size: 1rem;
@@ -210,20 +210,28 @@ form label.top input, form label.top select {
   border-radius: 4px;
   padding: 0.75rem;
   color: #555;
-  width: 100%;
-  max-width: 20rem;
+  /* width: 100%;
+  max-width: 20rem; */
   background-color: rgba(0,0,0,0.1);
 }
 
-form label.sbs {
+form label.level {
   display: block;
   padding: 0.75rem 0;
   color: #555;
 }
 
+form label.info input:required {
+  border-left: red solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: green solid 6px;
+}
+
 form input.submitBtn {
   border: none;
-  background-color: #9c2c13;
+  background-color: #9b111e;
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -232,12 +240,11 @@ form input.submitBtn {
   max-width: 20rem;
 }
 
-form label.top input:required {
-  border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-  border-left: green solid 6px;
+/*----------- join.html --------------*/
+.np_benefits h3, .bronze_benefits h3, .silver_benefits h3, .gold_benefits h3{
+  background-color: white;
+  color: white;
+  box-shadow: none;
 }
 
 /*----------- thankyou.html --------------*/

@@ -50,18 +50,18 @@
                 <fieldset>
                     <legend>Join Registration</legend>
         <!-- A first name input of type text and is required. -->
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="info">First Name* <input type="text" name="fname" required></label>
         <!-- A last name input of type text and is required. -->
-                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="info">Last Name* <input type="text" name="lname" required></label>
         <!-- A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces
         with a minimum of seven characters using a regular expressionLinks to an external site. pattern. -->
-                    <label class="top">Business Position <input type="text" name="bposition"></label>
+                    <label class="info">Business Position <input type="text" name="bposition"></label>
         <!-- A email using input of type email that is required and provides a placeholder which contains an example email input. -->
-                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="info">Email* <input type="email" name="email" placeholder="email@gmail.com" required></label>
         <!-- A cell phone number using input of type tel and is required. -->
-                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="info">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
         <!-- A business name/title text field that is required -->
-                    <label class="top">Business Name <input type="text" name="bname"></label>
+                    <label class="info">Business Name <input type="text" name="bname"></label>
                 </fieldset>
 
                 <fieldset>
@@ -71,14 +71,13 @@
                     <legend>Membership Levels</legend>
         <!-- Membership level benefits should be displayed to the side of the form in larger views.
         NP Membership is for non profit organizations and there is no fee. -->
-                    <div>Audience</div>
-                    <label class="sbs"><input type="radio" name="audience" value="np">NP Membership</label>
+                    <label class="level"><input type="radio" name="audience" value="np">NP Membership</label>
         <!-- Bronze Membership. -->
-                    <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze Membership</label>
+                    <label class="level"><input type="radio" name="audience" value="bronze">Bronze Membership</label>
         <!-- Silver Membership -->
-                    <label class="sbs"><input type="radio" name="audience" value="silver">Silver Membership</label>
+                    <label class="level"><input type="radio" name="audience" value="silver">Silver Membership</label>
         <!-- Gold Membership -->
-                    <label class="sbs"><input type="radio" name="audience" value="gold">Gold Membership</label>
+                    <label class="level"><input type="radio" name="audience" value="gold">Gold Membership</label>
         <!-- This memberships have increasing costs as well as increased benefits per level like trainings, 
         advertising (like on the home page spotlights), event discounts, etc. -->
                 </fieldset>
@@ -92,18 +91,46 @@
                 </fieldset>
         <!-- A form submission button using input of type submit that is properly labeled. -->
             <button><a href="thankyou.html"><input type="submit" value="Join" class="submitBtn"></a></button>
-            
-        Each field element should have an appropriate name attribute
-
-        Each field element, including the textarea, should be encased in a <label> tag to support accessibilityLinks to an external site.
-
-        Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression (tabs) for accessibility.
-        See the week's activity and Designing more Efficient FormsLinks to an external site.
-        Create a new page named "thankyou.html" that expresses gratitude for filling out the form. 
-        This page should load when the user has successfully submitted the form. 
-        The design should follow your site pattern and does not need to have a lot of actual content. -->
     
         </form>
+
+        <!-- Membership level benefits should be displayed to the side of the form in larger views. -->
+        <!-- These memberships have increasing costs as well as increased benefits per level like trainings, 
+        advertising (like on the home page spotlights), event discounts, etc. -->
+        <section class ="benefits">
+            <div class ="np_benefits">
+                <h3>NP</h3>
+                <ul>
+                    <li>Non-profit organizations</li>
+                    <li>No fee</li>
+                    <li>Connect with other non-profit organizations over common goals</li>
+                </ul>
+            </div>
+            <div class ="bronze_benefits">
+                <h3>Bronze</h3>
+                <ul>
+                    <li>Recieve emails recarding RVA Commerce events</li>
+                    <li>Connect with other businesses</li>
+                    <li>Trainings for starter up companies on how to grow</li>
+                </ul>
+            </div>
+            <div class ="silver_benefits">
+                <h3>Silver</h3>
+                <ul>
+                    <li>Recieve the monthly RVA Commerce newsletter via mail. </li>
+                    <li>Recieve notifications of recommended businesses to connect with. </li>
+                    <li>Discounts provided to businesses who have been in operation for at least 5 years.  </li>
+                </ul>
+            </div>
+            <div class ="gold_benefits">
+                <h3>Gold</h3>
+                <ul>
+                    <li>Automatic entry into roster for a place on the spotlight section of RVA Commerce site</li>
+                    <li>Connect with similiar businesses to accomplish business goals</li>
+                    <li>Trainings on how to maintain and further your business' goals</li>
+                </ul>
+            </div>
+        </section>
 
     </main>
 
