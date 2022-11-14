@@ -1,0 +1,99 @@
+# Nine (9) companies including:
+//1. names
+//2. addresses
+//3. phone numbers
+//4. website URLs
+//5. image or icon file names
+//6. membership level
+//7. and other information you deem appropriate.
+
+{
+    "name":"Capital One",
+    "address": "1680 Capital One Drive
+    McLean, VA 22102-3491", 
+    "phone number":"1 (877) 383-4802", 
+    "website URL":"https://www.capitalone.com/",
+    "image or icon file names":"capitalonelogo.png",
+    "membership level":"silver",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+} 
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
+
+{
+    "name":"",
+    "address": "", 
+    "phone number":"", 
+    "website URL":"",
+    "image or icon file names":"",
+    "membership level":"",
+    "and other information you deem appropriate.":""
+}
