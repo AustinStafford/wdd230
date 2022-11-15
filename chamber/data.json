@@ -1,21 +1,10 @@
-# Nine (9) companies including:
-//1. names
-//2. addresses
-//3. phone numbers
-//4. website URLs
-//5. image or icon file names
-//6. membership level
-//7. and other information you deem appropriate.
-
 {
     "name":"Capital One",
-    "address": "1680 Capital One Drive
-    McLean, VA 22102-3491", 
+    "address": "1680 Capital One Drive McLean, VA 22102-3491", 
     "phone number":"1 (877) 383-4802", 
     "website URL":"https://www.capitalone.com/",
     "image or icon file names":"capitalonelogo.png",
-    "membership level":"Silver",
-    "and other information you deem appropriate.":""
+    "membership level":"Silver"
 }
 
 {
@@ -24,8 +13,7 @@
     "phone number":"(888) 280-4331", 
     "website URL":"https://www.amazon.com/",
     "image or icon file names":"Amazon-current-Logo-2.jpg",
-    "membership level":"Gold",
-    "and other information you deem appropriate.":""
+    "membership level":"Gold"
 } 
 
 {
@@ -34,8 +22,7 @@
     "phone number":"(804) 697-1500", 
     "website URL":"https://www2.deloitte.com/us/en.html",
     "image or icon file names":"Deloitte-Logo.png",
-    "membership level":"Bronze",
-    "and other information you deem appropriate.":""
+    "membership level":"Bronze"
 }
 
 {
@@ -45,8 +32,7 @@
     "phone number":"434-847-5597", 
     "website URL":"https://www.ymcacva.org/",
     "image or icon file names":"ymcalogo-1.jpg",
-    "membership level":"Bronze",
-    "and other information you deem appropriate.":""
+    "membership level":"Bronze"
 }
 
 {
@@ -55,8 +41,7 @@
     "phone number":" 1 (800) 273-8255", 
     "website URL":"https://www.va.gov/",
     "image or icon file names":"department-of-veterans-affairs-logo-1.jpg",
-    "membership level":"NP",
-    "and other information you deem appropriate.":""
+    "membership level":"NP"
 }
 
 {
@@ -65,8 +50,7 @@
     "phone number":"1 (757) 857-2112", 
     "website URL":"https://www.dominionenergy.com/virginia",
     "image or icon file names":"dominion-logo-1.jpg",
-    "membership level":"Gold",
-    "and other information you deem appropriate.":""
+    "membership level":"Gold"
 }
 
 {
@@ -75,8 +59,7 @@
     "phone number":"(804) 828-9000", 
     "website URL":"https://www.vcuhealth.org/",
     "image or icon file names":"vcu-medical-center-logo-1.jpg",
-    "membership level":"Gold",
-    "and other information you deem appropriate.":""
+    "membership level":"Gold"
 }
 
 {
@@ -85,8 +68,7 @@
     "phone number":"(804) 748-1405", 
     "website URL":"https://mychesterfieldschools.com/",
     "image or icon file names":"chesterfield-county-public-schools-logo-1.jpg",
-    "membership level":"Silver",
-    "and other information you deem appropriate.":""
+    "membership level":"Silver"
 }
 
 {
@@ -95,6 +77,5 @@
     "phone number":"(804) 864-7000", 
     "website URL":"https://www.vdh.virginia.gov/",
     "image or icon file names":"virginia-department-of-health-logo-1.jpg",
-    "membership level":"Silver",
-    "and other information you deem appropriate.":""
+    "membership level":"Silver"
 }
