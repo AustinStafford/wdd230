@@ -14,7 +14,7 @@
     "phone number":"1 (877) 383-4802", 
     "website URL":"https://www.capitalone.com/",
     "image or icon file names":"capitalonelogo.png",
-    "membership level":"silver",
+    "membership level":"Silver",
     "and other information you deem appropriate.":""
 }
 
@@ -34,7 +34,7 @@
     "phone number":"(804) 697-1500", 
     "website URL":"https://www2.deloitte.com/us/en.html",
     "image or icon file names":"Deloitte-Logo.png",
-    "membership level":"bronze",
+    "membership level":"Bronze",
     "and other information you deem appropriate.":""
 }
 
@@ -45,7 +45,7 @@
     "phone number":"434-847-5597", 
     "website URL":"https://www.ymcacva.org/",
     "image or icon file names":"ymcalogo-1.jpg",
-    "membership level":"bronze",
+    "membership level":"Bronze",
     "and other information you deem appropriate.":""
 }
 
@@ -55,7 +55,7 @@
     "phone number":" 1 (800) 273-8255", 
     "website URL":"https://www.va.gov/",
     "image or icon file names":"department-of-veterans-affairs-logo-1.jpg",
-    "membership level":"np",
+    "membership level":"NP",
     "and other information you deem appropriate.":""
 }
 
@@ -65,36 +65,36 @@
     "phone number":"1 (757) 857-2112", 
     "website URL":"https://www.dominionenergy.com/virginia",
     "image or icon file names":"dominion-logo-1.jpg",
-    "membership level":"gold",
+    "membership level":"Gold",
     "and other information you deem appropriate.":""
 }
 
 {
-    "name":"",
-    "address": "", 
-    "phone number":"", 
-    "website URL":"",
-    "image or icon file names":"",
-    "membership level":"",
+    "name":"VCU Health",
+    "address": "57 N 11th St, Richmond, VA 23298", 
+    "phone number":"(804) 828-9000", 
+    "website URL":"https://www.vcuhealth.org/",
+    "image or icon file names":"vcu-medical-center-logo-1.jpg",
+    "membership level":"Gold",
     "and other information you deem appropriate.":""
 }
 
 {
-    "name":"",
-    "address": "", 
-    "phone number":"", 
-    "website URL":"",
-    "image or icon file names":"",
-    "membership level":"",
+    "name":"Chesterfield County Public Schools",
+    "address": " 9900 Krause Rd, Chesterfield, VA 23832", 
+    "phone number":"(804) 748-1405", 
+    "website URL":"https://mychesterfieldschools.com/",
+    "image or icon file names":"chesterfield-county-public-schools-logo-1.jpg",
+    "membership level":"Silver",
     "and other information you deem appropriate.":""
 }
 
 {
-    "name":"",
-    "address": "", 
-    "phone number":"", 
-    "website URL":"",
-    "image or icon file names":"",
-    "membership level":"",
+    "name":"Virginia Department of Health",
+    "address": "109 Governor Street, Richmond, VA 23219", 
+    "phone number":"(804) 864-7000", 
+    "website URL":"https://www.vdh.virginia.gov/",
+    "image or icon file names":"virginia-department-of-health-logo-1.jpg",
+    "membership level":"Silver",
     "and other information you deem appropriate.":""
 }
