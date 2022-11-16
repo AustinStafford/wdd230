@@ -110,7 +110,7 @@ localStorage.setItem("visits-ls", totalVisits);
 
 // directory js
 
-const requestURL = 'https://austinstafford.github.io/wdd230/chamber/data.json';
+const requestURL = 'https://austinstafford.github.io/wdd230/chamber/scripts/data.json';
 const cards = document.querySelector('.business_cards');
 
 fetch(requestURL)
