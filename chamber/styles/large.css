@@ -119,5 +119,21 @@
         max-width: 900px;
         margin: auto;
   }
+
+     /* ----------directory.html---------- */
+    div {
+        display: grid;
+        grid-template-columns: auto auto auto auto; 
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        background-color: black;
+        border: 1px solid #3de8fb;
+        margin: 10px;
+    }
         /* min-height: 600px; */
 } 
