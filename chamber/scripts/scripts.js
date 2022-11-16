@@ -120,8 +120,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const data = jsonObject['data'];
-    data.forEach(displayData);
+    const businesses = jsonObject['businesses'];
+    businesses.forEach(displayData);
   });
   
 function displayData(data) {
