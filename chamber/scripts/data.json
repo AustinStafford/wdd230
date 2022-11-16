@@ -6,7 +6,7 @@
         "address": "1680 Capital One Drive McLean, VA 22102-3491", 
         "phoneNumber":"1 (877) 383-4802", 
         "websiteUrl":"https://www.capitalone.com/",
-        "image":"capitalonelogo-1.png",
+        "image":"capitalonelogo-1.jpg",
         "membershipLevel":"Silver"
     },
 
@@ -38,12 +38,12 @@
     },
 
     {
-        "name":"US Department of Veterans Affairs",
-        "address": "1701 Williamsburg Rd, Richmond, VA 23231", 
-        "phoneNumber":" 1 (800) 273-8255", 
-        "websiteUrl":"https://www.va.gov/",
-        "image":"department-of-veterans-affairs-logo-1.jpg",
-        "membershipLevel":"NP"
+        "name":"VCU Health",
+        "address": "57 N 11th St, Richmond, VA 23298", 
+        "phoneNumber":"(804) 828-9000", 
+        "websiteUrl":"https://www.vcuhealth.org/",
+        "image":"vcu-medical-center-logo-1.jpg",
+        "membershipLevel":"Gold"
     },
 
     {
@@ -56,12 +56,12 @@
     },
 
     {
-        "name":"VCU Health",
-        "address": "57 N 11th St, Richmond, VA 23298", 
-        "phoneNumber":"(804) 828-9000", 
-        "websiteUrl":"https://www.vcuhealth.org/",
-        "image":"vcu-medical-center-logo-1.jpg",
-        "membershipLevel":"Gold"
+        "name":"US Department of Veterans Affairs",
+        "address": "1701 Williamsburg Rd, Richmond, VA 23231", 
+        "phoneNumber":" 1 (800) 273-8255", 
+        "websiteUrl":"https://www.va.gov/",
+        "image":"department-of-veterans-affairs-logo-1.jpg",
+        "membershipLevel":"NP"
     },
 
     {
