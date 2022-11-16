@@ -120,7 +120,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const businesses = jsonObject['businesses'];
+    const businesses = jsonObject.businesses;
     businesses.forEach(displayData);
   });
   
@@ -136,7 +136,7 @@ h2.textContent = data.name + ' ' ;
   
 // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
 //(Fill in the blank with the appropriate variable).
-image.setAttribute('src', data.image);
+image.setAttribute('src', `images/directory_images/${data.image}`);
 image.setAttribute('alt', `Logo of ${data.name}`);
 image.setAttribute('loading', 'lazy');
   
