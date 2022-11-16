@@ -273,16 +273,26 @@ form input.submitBtn {
   align-items: center;
 }
 
-section {
+.business_cards section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 300px;
   background-color: black;
   border: 1px solid #3de8fb;
+  color: #3de8fb;
   margin: 10px;
 }
 
+.business_cards section h2, .business_cards section image {
+  align-items:center;
+  border: 1px solid #3de8fb;
+}
+
+
+.business_cards section p {
+  align-items:flex-start;
+  padding: 5px;
+}
 
 /* ----------FOOTER---------- */
 footer{

@@ -15,6 +15,8 @@ function toggleMenu() {
     document.getElementById("navButton").classList.toggle("hide");
 }
 
+// ------------ Banner get together ------------ //
+
 //To change the display property in JavaScript, consider the use of 
 //.style.display = "block" in a selection structure where the condition 
 //looks at the day of the week through the Date() object and getDay() 
@@ -80,6 +82,8 @@ imagesToLoad.forEach((img) => {
     });
 }
 
+// ------------ Local Storage ------------ //
+
 // Using local storage, display the amount of time in days 
 // (rounded to a whole number) between user visits to this 
 // page by the user's agent (browser). You may elect to 
@@ -108,8 +112,29 @@ localStorage.setItem("visits-ls", totalVisits);
 
 // todayDisplay.textContent = Date.now();
 
-// directory js
+// ------------ directory js ------------ //
 
+// Buttons
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("business_cards");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
+// Business Cards
 const requestURL = 'https://austinstafford.github.io/wdd230/chamber/scripts/data.json';
 const cards = document.querySelector('.business_cards');
 

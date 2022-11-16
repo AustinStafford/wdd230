@@ -230,6 +230,61 @@
     }
 
      /* ----------directory.html---------- */
+     .buttons {
+        margin: 1rem auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #bbb;
+        text-align: center;
+    }
+    
+    .buttons button {
+        padding: 1rem;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        align-items: center;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section {
+        display: flex;
+        align-items: center;
+    }
+    
+    .grid section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .grid section > * {
+        margin: 0.1rem;
+    }
+    
+    .list section {
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    .list section > * {
+        margin: 0 1rem;
+        text-align: left;
+    }
+    
+    .list section img {
+        display: none; /* smaller viewports only */
+    }
+    
+    section h3 {
+        font-size: 1.5rem;
+    }
+
      .business_cards {
         display: grid;
         grid-template-columns: auto auto; 
