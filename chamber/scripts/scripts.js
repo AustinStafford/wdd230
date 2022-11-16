@@ -98,9 +98,9 @@ const visitsDisplay = document.querySelector(".user_visits");
 let totalVisits = Number(window.localStorage.getItem("visits-ls"));
 
 
-if (totalVisits !== 0) {
-	visitsDisplay.textContent = totalVisits;
-} 
+// if (totalVisits !== 0) {
+// 	visitsDisplay.textContent = totalVisits;
+// } 
 
 totalVisits++;
 
@@ -110,8 +110,8 @@ localStorage.setItem("visits-ls", totalVisits);
 
 // directory js
 
-const requestURL = 'https://byui-cit230.github.io/chamber/data.json';
-const cards = document.querySelector('.cards');
+const requestURL = 'https://austinstafford.github.io/wdd230/chamber/data.json';
+const cards = document.querySelector('.business_cards');
 
 fetch(requestURL)
   .then(function (response) {
@@ -120,41 +120,50 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    const data = jsonObject['data'];
+    data.forEach(displayData);
   });
-
-//   const prophets = jsonObject['prophets'];
   
-function displayProphets(prophet) {
+function displayData(data) {
 // Create elements to add to the document
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
-let prophet_paragraph = document.createElement('p');
-let portrait = document.createElement('img');
+//let business_paragraph = document.createElement('p');
+let image = document.createElement('img');
   
-// Change the textContent property of the h2 element to contain the prophet's full name
-h2.textContent = prophet.name + ' ' + prophet.lastname;
+// Change the textContent property of the h2 element to contain the business name
+h2.textContent = data.name + ' ' ;
   
 // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
 //(Fill in the blank with the appropriate variable).
-portrait.setAttribute('src', prophet.imageurl);
-portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${addSuffix(prophet.order)} Latter-day President`);
-portrait.setAttribute('loading', 'lazy');
+image.setAttribute('src', data.image);
+image.setAttribute('alt', `Logo of ${data.name}`);
+image.setAttribute('loading', 'lazy');
   
 // Add/append the section(card) with the h2 element
 card.appendChild(h2);
-card.appendChild(portrait);
+card.appendChild(image);
 
-let dob_paragrapgh = document.createElement('p');
-dob_paragrapgh.innerHTML = `Date of birth: ${prophet.birthdate}`; 
-card.appendChild(dob_paragrapgh);
-let pob_paragrapgh = document.createElement('p');
-pob_paragrapgh.innerHTML = `Date of birth: ${prophet.birthplace}`; 
-card.appendChild(pob_paragrapgh);
-// prophet_paragraph.appendChild('Date of birth:' + prophet.birth );
-// prophet_paragraph.appendChild('Birth place: ' + prophet );
-  
+// address
+let address_paragrapgh = document.createElement('p');
+address_paragrapgh.innerHTML = `Address: ${data.address}`; 
+card.appendChild(address_paragrapgh);
+
+//phone number
+let pn_paragrapgh = document.createElement('p');
+pn_paragrapgh.innerHTML = `Address: ${data.phoneNumber}`; 
+card.appendChild(pn_paragrapgh);
+
+// website url
+let url_paragrapgh = document.createElement('p');
+url_paragrapgh.innerHTML = `Website URL: ${data.websiteUrl}`; 
+card.appendChild(url_paragrapgh);
+
+// membership level
+let ml_paragrapgh = document.createElement('p');
+ml_paragrapgh.innerHTML = `Membership Level: ${data.membershipLevel}`; 
+card.appendChild(ml_paragrapgh);
+
 // Add/append the existing HTML div with the cards class with the section(card)
- document.querySelector('div.cards').appendChild(card);
+ document.querySelector('div.business_cards').appendChild(card);
 }

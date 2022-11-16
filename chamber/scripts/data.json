@@ -1,0 +1,82 @@
+[
+    {
+        "name":"Capital One",
+        "address": "1680 Capital One Drive McLean, VA 22102-3491", 
+        "phoneNumber":"1 (877) 383-4802", 
+        "websiteUrl":"https://www.capitalone.com/",
+        "image":"capitalonelogo.png",
+        "membershipLevel":"Silver"
+    },
+
+    {
+        "name":"Amazon",
+        "address": "4949 Commerce Rd, Richmond, VA 23234", 
+        "phoneNumber":"(888) 280-4331", 
+        "websiteUrl":"https://www.amazon.com/",
+        "image":"Amazon-current-Logo-2.jpg",
+        "membershipLevel":"Gold"
+    },
+
+    {
+        "name":"Deloitte",
+        "address": "West Tower, 901 E Byrd St Suite 820, Richmond, VA 23219", 
+        "phoneNumber":"(804) 697-1500", 
+        "websiteUrl":"https://www2.deloitte.com/us/en.html",
+        "image":"Deloitte-Logo.png",
+        "membershipLevel":"Bronze"
+    },
+
+    {
+        "name":"YMCA",
+        "address": "1315 Church Street Lynchburg, VA 24504", 
+        "phoneNumber":"434-847-5597", 
+        "websiteUrl":"https://www.ymcacva.org/",
+        "image":"ymcalogo-1.jpg",
+        "membershipLevel":"Bronze"
+    },
+
+    {
+        "name":"US Department of Veterans Affairs",
+        "address": "1701 Williamsburg Rd, Richmond, VA 23231", 
+        "phoneNumber":" 1 (800) 273-8255", 
+        "websiteUrl":"https://www.va.gov/",
+        "image":"department-of-veterans-affairs-logo-1.jpg",
+        "membershipLevel":"NP"
+    },
+
+    {
+        "name":"Dominion Energy",
+        "address": "120 Tredegar Street 6th Floor Richmond, VA 23219", 
+        "phoneNumber":"1 (757) 857-2112", 
+        "websiteUrl":"https://www.dominionenergy.com/virginia",
+        "image":"dominion-logo-1.jpg",
+        "membershipLevel":"Gold"
+    },
+
+    {
+        "name":"VCU Health",
+        "address": "57 N 11th St, Richmond, VA 23298", 
+        "phoneNumber":"(804) 828-9000", 
+        "websiteUrl":"https://www.vcuhealth.org/",
+        "image":"vcu-medical-center-logo-1.jpg",
+        "membershipLevel":"Gold"
+    },
+
+    {
+        "name":"Chesterfield County Public Schools",
+        "address": " 9900 Krause Rd, Chesterfield, VA 23832", 
+        "phoneNumber":"(804) 748-1405", 
+        "websiteUrl":"https://mychesterfieldschools.com/",
+        "image":"chesterfield-county-public-schools-logo-1.jpg",
+        "membershiLevel":"Silver"
+    },
+
+    {
+        "name":"Virginia Department of Health",
+        "address": "109 Governor Street, Richmond, VA 23219", 
+        "phoneNumber":"(804) 864-7000", 
+        "websiteUrl":"https://www.vdh.virginia.gov/",
+        "image":"virginia-department-of-health-logo-1.jpg",
+        "membershipLevel":"Silver"
+    }
+]
