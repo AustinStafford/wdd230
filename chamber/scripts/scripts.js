@@ -117,7 +117,7 @@ localStorage.setItem("visits-ls", totalVisits);
 // Buttons
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector("#cards");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
@@ -171,17 +171,17 @@ card.appendChild(image);
 
 // address
 let address_paragrapgh = document.createElement('p');
-address_paragrapgh.innerHTML = `Address: ${data.address}`; 
+address_paragrapgh.innerHTML = `${data.address}`; 
 card.appendChild(address_paragrapgh);
 
 //phone number
 let pn_paragrapgh = document.createElement('p');
-pn_paragrapgh.innerHTML = `Address: ${data.phoneNumber}`; 
+pn_paragrapgh.innerHTML = `${data.phoneNumber}`; 
 card.appendChild(pn_paragrapgh);
 
 // website url
 let url_paragrapgh = document.createElement('p');
-url_paragrapgh.innerHTML = `Website URL: ${data.websiteUrl}`; 
+url_paragrapgh.innerHTML = `<a href="${data.websiteUrl}" target="_blank"> Website</a>`; 
 card.appendChild(url_paragrapgh);
 
 // membership level
@@ -190,5 +190,5 @@ ml_paragrapgh.innerHTML = `Membership Level: ${data.membershipLevel}`;
 card.appendChild(ml_paragrapgh);
 
 // Add/append the existing HTML div with the cards class with the section(card)
- document.querySelector('div.business_cards').appendChild(card);
+ document.querySelector('div#cards').appendChild(card);
 }

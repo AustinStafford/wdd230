@@ -1,42 +1,47 @@
 @media only screen and (min-width: 500px) {
+  /* ----------HEAD/FOOTER---------- */
+  .head,
+  footer {
+    max-width: 800px;
+    margin: 30px auto;
+  }
 
-    /* ----------HEAD/FOOTER---------- */
-    .head, footer {
-        max-width: 800px;
-        margin: 30px auto;
-    }
+  /*nav button {display: hide;}*/
 
-    /*nav button {display: hide;}*/
-
-    /*nav ul#navButton {
+  /*nav ul#navButton {
         display: flex;
         justify-content: center;
         margin-left: 2vw;
         border-left: 1px solid rgba(0,0,0,0.3);
     }*/
 
-    /* ----------NAVIGATION---------- */
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        font-size: 18px;
-    }
+  /* ----------NAVIGATION---------- */
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+  }
 
-    /* ----------MAIN---------- */
-    main {
-        display: grid;
-        grid-template-columns: auto auto; 
-        grid-template-rows: auto auto auto auto auto auto;
-        grid-gap: 1em; 
-        /* display: flex; */
-      }
-      
-    /* ----------index.html---------- */
-    .call_to_action, .news, .events, .weather, .join, .spotlights {
-        min-height: 300px;
-      } 
+  /* ----------MAIN---------- */
+  main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 1em;
+    /* display: flex; */
+  }
 
-    /* .column_one {
+  /* ----------index.html---------- */
+  .call_to_action,
+  .news,
+  .events,
+  .weather,
+  .join_div,
+  .spotlights {
+    min-height: 300px;
+  }
+
+  /* .column_one {
         justify-content: flex-start;
         flex-direction: column;
     }
@@ -46,7 +51,7 @@
         flex-direction: column;
     } */
 
-    /* .call_to_action {
+  /* .call_to_action {
         
     } 
 
@@ -62,234 +67,206 @@
         
     }  */
 
-
-    /* .join {
+  /* .join {
 
     } */
 
-    /*.spotlights {
+  /*.spotlights {
         justify-content: flex-end;
     } */
 
-    /* ----------discover.html---------- */
+  /* ----------discover.html---------- */
 
-    .discover {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+  .discover {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
-    .images {
-        flex-direction: column;
-    }
+  .images {
+    flex-direction: column;
+  }
 
-    .statistics {
-        flex-direction: column;
-    }
+  .statistics {
+    flex-direction: column;
+  }
 
-    .statistics p {
-        height: 300px;
-        width: 400px;
-    }
-    .one, .two, .three, .four, .five{
-        margin: 10px;
-        position: relative;
-        margin-right: 10px;
-       }
-       
-       /* .one div, .two div, .three div, .four div, .five div{ */
-    .img_info {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background: black;
-        color: white;
-        margin-bottom: 5px;
-        opacity: 0;
-        visibility: hidden;
-        -webkit-transition: visibility 0s, opacity 0.5s linear; 
-        transition: visibility 0s, opacity 0.5s linear;
-    }
+  .statistics p {
+    height: 300px;
+    width: 400px;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    margin: 10px;
+    position: relative;
+    margin-right: 10px;
+  }
 
-    .statistics p {
-        font-size: 30px;
-        line-height: 36px;
-        text-align: center;
-        margin: 0;
-    } 
-       
-    .one:hover { 
-        cursor: pointer;
-    }
-       
-    .one:hover .img_info {
-        height: 200px;
-        width: 150px;
-        padding: 8px 15px;
-        visibility: visible;
-        opacity: 0.7; 
-    } 
-    
-    .two:hover { 
-        cursor: pointer;
-    }
-       
-    .two:hover .img_info {
-        height: 200px;
-        width: 150px;
-        padding: 8px 15px;
-        visibility: visible;
-        opacity: 0.7; 
-    }  
+  /* .one div, .two div, .three div, .four div, .five div{ */
+  .img_info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
 
-    .three:hover { 
-        cursor: pointer;
-    }
-       
-    .three:hover .img_info {
-        height: 200px;
-        width: 150px;
-        padding: 8px 15px;
-        visibility: visible;
-        opacity: 0.7; 
-    }  
+  .statistics p {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+  }
 
-    .four:hover { 
-        cursor: pointer;
-    }
-       
-    .four:hover .img_info {
-        height: 200px;
-        width: 150px;
-        padding: 8px 15px;
-        visibility: visible;
-        opacity: 0.7; 
-    }  
+  .one:hover {
+    cursor: pointer;
+  }
 
-    .five:hover { 
-        cursor: pointer;
-    }
-       
-    .five:hover .img_info {
-        height: 200px;
-        width: 150px;
-        padding: 8px 15px;
-        visibility: visible;
-        opacity: 0.7; 
-    }  
+  .one:hover .img_info {
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+  }
 
-    .local_storage {
-        flex-flow: column wrap;
+  .two:hover {
+    cursor: pointer;
+  }
 
-    }
+  .two:hover .img_info {
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+  }
 
-    /* ----------join.html---------- */
-    .join {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    
-    form label.level {
-        padding: 0.4rem 0;
-    }
-    
-    form {
-        flex-direction: column;
-    }
+  .three:hover {
+    cursor: pointer;
+  }
 
-    .np_benefits h3, .bronze_benefits h3, .silver_benefits h3, .gold_benefits h3 {
-        background-color: #9b111e;
-        box-shadow: 5px 5px 5px #000000;
-        position: relative;
-    }
-    
-    .benefits {
-        flex-direction: column;
-    }
-    
-    .benefits div {
-        height: 200px;
-        width: 350px;
-    }
+  .three:hover .img_info {
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+  }
 
-    .benefits ul li {
-        color: black;
-        margin-top: 10px;
-        list-style-type: disc;
-    }
+  .four:hover {
+    cursor: pointer;
+  }
 
-    /*----------- thankyou.html --------------*/
-    .thankyou {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .thankyou_message {
-        width: 400px;
-    }
+  .four:hover .img_info {
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+  }
 
-     /* ----------directory.html---------- */
-     .buttons {
-        margin: 1rem auto;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 0.5rem;
-        background-color: #bbb;
-        text-align: center;
-    }
-    
-    .buttons button {
-        padding: 1rem;
-    }
-    
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        align-items: center;
-    }
-    
-    .list {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .list section {
-        display: flex;
-        align-items: center;
-    }
-    
-    .grid section {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .grid section > * {
-        margin: 0.1rem;
-    }
-    
-    .list section {
-        flex-direction: row;
-        justify-content: left;
-    }
-    
-    .list section > * {
-        margin: 0 1rem;
-        text-align: left;
-    }
-    
-    .list section img {
-        display: none; /* smaller viewports only */
-    }
-    
-    section h3 {
-        font-size: 1.5rem;
-    }
+  .five:hover {
+    cursor: pointer;
+  }
 
-     /* .business_cards {
-        display: grid;
-        grid-template-columns: auto auto; 
-    } */
-} 
+  .five:hover .img_info {
+    height: 200px;
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+  }
+
+  .local_storage {
+    flex-flow: column wrap;
+  }
+
+  /* ----------join.html---------- */
+  .join {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  form label.level {
+    padding: 0.4rem 0;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .np_benefits h3,
+  .bronze_benefits h3,
+  .silver_benefits h3,
+  .gold_benefits h3 {
+    background-color: #9b111e;
+    box-shadow: 5px 5px 5px #000000;
+    position: relative;
+  }
+
+  .benefits {
+    flex-direction: column;
+  }
+
+  .benefits div {
+    height: 200px;
+    width: 350px;
+  }
+
+  .benefits ul li {
+    color: black;
+    margin-top: 10px;
+    list-style-type: disc;
+  }
+
+  /*----------- thankyou.html --------------*/
+  .thankyou {
+    display: flex;
+    justify-content: center;
+  }
+
+  .thankyou_message {
+    width: 400px;
+  }
+
+  /* ----------directory.html---------- */
+  .buttons {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bbb;
+    text-align: center;
+  }
+
+  .buttons button {
+    padding: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section h3 {
+    font-size: 1.5rem;
+  }
+}
 
 /* ctrl k ctrl c
 to undo ctrl u*/

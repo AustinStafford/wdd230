@@ -1,64 +1,88 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>directory.html</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="directory.html for chamber of commerce for Austin Stafford in the class WDD 230. " >
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="directory.html for chamber of commerce for Austin Stafford in the class WDD 230. "
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rajdhani&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&family=Rajdhani&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class = "head">
-        <header>
+    <div class="head">
+      <header>
         <div id="rowone">
-            <img id="img" alt="RVA Commerce Logo." src="./images/rvacommercelogo(3).svg">
-            <h1>RVA Commerce</h1>
+          <img
+            id="img"
+            alt="RVA Commerce Logo."
+            src="./images/rvacommercelogo(3).svg"
+          />
+          <h1>RVA Commerce</h1>
         </div>
         <span id="upToDate"></span>
         <nav>
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="navButton" class="hide">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="target-audience.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="color-scheme.html">Contact</a></li>
-            </ul>
+          <button onclick="toggleMenu()">&#9776;</button>
+          <ul id="navButton" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="target-audience.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="color-scheme.html">Contact</a></li>
+          </ul>
         </nav>
-        <div class = "social_media">
-            <a class="facebook" href="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/facebook.png?v=1643506415346" target="_blank">
-                <img src="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/facebook.png?v=1643506415346" alt="Facebook Page">
-             </a>
-            <a class="youtube" href="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/youtube.png?v=1643506390898" target="_blank">
-                <img src="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/youtube.png?v=1643506390898" alt="YouTube Channel">
-             </a>
+        <div class="social_media">
+          <a
+            class="facebook"
+            href="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/facebook.png?v=1643506415346"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/facebook.png?v=1643506415346"
+              alt="Facebook Page"
+            />
+          </a>
+          <a
+            class="youtube"
+            href="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/youtube.png?v=1643506390898"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.glitch.global/af69615f-7990-42b9-81ad-8de803bb447d/youtube.png?v=1643506390898"
+              alt="YouTube Channel"
+            />
+          </a>
         </div>
-        </header>
-        <div class = "banner"><span id = "bannerMessage"></span></div>
+      </header>
+      <div class="banner"><span id="bannerMessage"></span></div>
     </div>
     <div class="buttons">
-        <button id="grid">Grid</button>
-        <button id="list">List</button>
+      <button id="grid">Grid</button>
+      <button id="list">List</button>
     </div>
-    <main class = "directory">
-        <article class="grid">
-            <div class="business_cards">
-            
-            </div>
-        </article>
+    <main class="directory">
+      <div class="grid" id="cards"></div>
     </main>
 
     <footer>
-        <p class = "footer-paragraph"> &copy; <span id = "currentYear"></span> - Austin Stafford - WDD 230 </p>
-        <p>Last modified date: <span id="lastModified"></span></p>
+      <p class="footer-paragraph">
+        &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
+      </p>
+      <p>Last modified date: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/scripts.js"></script>
-</body>
-
+  </body>
 </html>
