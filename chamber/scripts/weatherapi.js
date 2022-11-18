@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const windSpeed = document.querySelector('#wind-speed');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=fairbanks&units=imperial&appid=62a5684b5a13d785bf0dcaaae0881b52'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=richmond&units=imperial&appid=62a5684b5a13d785bf0dcaaae0881b52'
 
 const windChill = 35.74 + (0.6215 * currentTemp) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * currentTemp * Math.pow(windSpeed, 0.16));
 if (currentTemp <= 50 && windSpeed > 3) {
