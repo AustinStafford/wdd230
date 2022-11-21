@@ -354,6 +354,7 @@ form input.submitBtn {
 .grid section {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
 .list {

@@ -143,6 +143,15 @@
     margin: 0 auto;
   }
 
+  .grid section {
+    height: 600px;
+  }
+
+  .grid {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   /* .business_cards {
     display: grid;
     grid-template-columns: auto auto auto auto;
