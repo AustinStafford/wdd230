@@ -266,6 +266,13 @@
   section h3 {
     font-size: 1.5rem;
   }
+
+  /* ----------contact.html---------- */
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
 
 /* ctrl k ctrl c
