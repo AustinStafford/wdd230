@@ -140,6 +140,17 @@ main {
   justify-content: center;
 }
 
+.call_to_action p,
+.news p,
+.events p,
+.weather p,
+.join_div p,
+.spotlight_one p,
+.spotlight_two p,
+.spotlight_three p {
+  padding: 10px;
+}
+
 /*.call_to_action {
     
 } */
