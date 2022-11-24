@@ -10,7 +10,7 @@
   header {
     display: grid;
     grid-template-rows: auto 50px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
   }
 
   .rowone {
@@ -43,23 +43,27 @@
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     /*border: 3px solid black;*/
     /* margin-left: 380px; */
+    padding-top: 25px;
   }
 
   .social_media {
-    grid-column: 2;
-    justify-self: end;
+    grid-column: 3;
+    justify-self: center;
     padding-right: 20px;
+    padding-top: 45px;
   }
 
   #upToDate {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: right; */
+    grid-column: 2;
     margin-top: 30px;
     margin-right: 20px;
+    justify-self: center;
   }
 
   /* ----------index.html---------- */
