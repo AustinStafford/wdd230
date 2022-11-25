@@ -100,11 +100,20 @@
     grid-row: 2;
   }
 
+  .weather_div {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
   .join_div {
     grid-column: 1;
     grid-row: 3;
     min-height: 400px;
   }
+
+  /* form input.joinBtn {
+    margin-left: 120px;
+  } */
 
   form input.joinBtn {
     margin-top: 115px;
@@ -124,6 +133,11 @@
   .spotlight_three {
     grid-column: 4;
     grid-row: 3;
+  }
+
+  .spotlight_three h3,
+  .spotlight_three p {
+    margin-bottom: 43px;
   }
 
   /* ----------discover.html---------- */
