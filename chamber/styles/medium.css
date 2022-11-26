@@ -53,9 +53,17 @@
 
   /* .call_to_action {
         
-    } 
+    } */
 
-    .news {
+  .call_to_action h2 {
+    margin-bottom: 115px;
+  }
+
+  main figure.business_photo img {
+    margin-bottom: 85px;
+  }
+
+  /*.news {
        
     } 
 

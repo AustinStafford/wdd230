@@ -84,6 +84,14 @@
     min-height: 600px;
   }
 
+  .call_to_action h2 {
+    margin-bottom: 55px;
+  }
+
+  main figure.business_photo img {
+    margin-bottom: 20px;
+  }
+
   .news {
     grid-column: 2/4;
     grid-row: 3;
