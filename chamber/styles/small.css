@@ -159,6 +159,20 @@ main {
     
 } */
 
+main figure.business_photo {
+  width: 50%;
+  margin: 0 0 0 2%;
+}
+
+main figure.business_photo img {
+  width: 100%;
+}
+
+main figure.business_photo figcaption {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
 /* .news {
     color: white;
 } 
