@@ -220,6 +220,58 @@ form input.joinBtn {
     
 }*/
 
+#spotlight_1 img,
+#spotlight_2 img,
+#spotlight_3 img {
+  height: 125px;
+  width: 125px;
+}
+
+#spotlight_1 section,
+#spotlight_2 section,
+#spotlight_3 section {
+  border: 1px solid #3de8fb;
+  color: #3de8fb;
+  margin: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+}
+
+#spotlight_1 section h2,
+#spotlight_1 section image,
+#spotlight_2 section h2,
+#spotlight_2 section image,
+#spotlight_3 section h2,
+#spotlight_3 section image {
+  /* align-items: center; */
+  border: 1px solid #3de8fb;
+}
+
+#spotlight_1 section p,
+#spotlight_2 section p,
+#spotlight_3 section p {
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.spotlight_1,
+.spotlight_2,
+.spotlight_3 {
+  width: 425px;
+  margin-bottom: 10px;
+  min-height: 200px;
+}
+
+.spotlight_1 section,
+.spotlight_2 section,
+.spotlight_3 section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
 /* CSS for discover.html */
 
 .discover {
