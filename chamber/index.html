@@ -75,7 +75,18 @@
         <!--<img class = "dogimg" src="images/dogpic(2).jpg" alt="Virginia local dog hero, Buddy.">-->
 
         <figure class="business_photo">
-          <img src="/chamber/images/wdd230-org.jpg" alt="Hero image." />
+          <picture>
+            <source
+              media="(min-width: 900px)"
+              srcset="/chamber/images/wdd230-org-large.jpg"
+            />
+            <source
+              media="(min-width: 600px)"
+              srcset="/chamber/images/wdd230-org-medium-1.jpg"
+            />
+            <img src="/chamber/images/wdd230-org(small1).jpg" alt="small" />
+          </picture>
+          <!-- <img src="/chamber/images/wdd230-org-large.jpg" alt="Hero image." /> -->
           <!-- srcset="
             /chamber/images/wdd230-org-large.jpg 800px" 
           /> -->
