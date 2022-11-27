@@ -1,89 +1,101 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>lazyload.html</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="lazyload.html for chamber of commerce for Austin Stafford in the class WDD 230. " >
-    <link rel="stylesheet" href="lazyload.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="lazyload.html for chamber of commerce for Austin Stafford in the class WDD 230. "
+    />
+    <link rel="stylesheet" href="lazyload.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rajdhani&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans&family=Rajdhani&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class = "head">
-        <header>
+    <div class="head">
+      <header>
         <div id="rowone">
-            <h1>Progressive Loading</h1>
+          <h1>Progressive Loading</h1>
         </div>
-        </header>
+      </header>
     </div>
     <main>
-        <!-- <div class="call_to_action">
+      <!-- <div class="call_to_action">
             <picture class = "heroimg">
-                <source media="(max-width: 450px)" srcset="/chamber/images/wdd230-org(small1).jpg">
-                <source media="(max-width: 800px)" srcset="/chamber/images/wdd230-org(medium2).jpg">
-                <img src="/chamber/images/wdd230-org(large2).png" alt="Hero image.">
+                <source media="(max-width: 450px)" srcset="images/wdd230-org(small1).jpg">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org(medium2).jpg">
+                <img src="images/wdd230-org(large2).png" alt="Hero image.">
             </picture>
         </div> -->
 
-        <div class="one">
-            <picture class = "pic-one">
-                <img 
-                    src="images/pictureone(1).jpg" 
-                    data-src="images/pictureone(1).jpg"
-                    alt="The woods."
-                    loading="lazy">
-            </picture>
-        </div>
+      <div class="one">
+        <picture class="pic-one">
+          <img
+            src="images/pictureone(1).jpg"
+            data-src="images/pictureone(1).jpg"
+            alt="The woods."
+            loading="lazy"
+          />
+        </picture>
+      </div>
 
-        <div class="two">
-            <picture class = "pic-two">
-                <img 
-                    src="images/picturetwo(1).jpg" 
-                    data-src="images/picturetwo(1).jpg"
-                    alt="Castle."
-                    loading="lazy"
-                >
-            </picture>
-        </div>
+      <div class="two">
+        <picture class="pic-two">
+          <img
+            src="images/picturetwo(1).jpg"
+            data-src="images/picturetwo(1).jpg"
+            alt="Castle."
+            loading="lazy"
+          />
+        </picture>
+      </div>
 
-        <div class="three">
-            <picture class = "pic-three">
-                <img 
-                    src="images/picturethree(1).jpg" 
-                    data-src="images/picturethree(1).jpg"
-                    alt="Hill overlooking an ocean."
-                    loading="lazy"
-                >
-            </picture>
-        </div>
+      <div class="three">
+        <picture class="pic-three">
+          <img
+            src="images/picturethree(1).jpg"
+            data-src="images/picturethree(1).jpg"
+            alt="Hill overlooking an ocean."
+            loading="lazy"
+          />
+        </picture>
+      </div>
 
-        <div class="four">
-            <picture class = "pic-four">
-                <img 
-                    src="images/picturefour(1).jpg" 
-                    data-src="images/picturefour(1).jpg"
-                    alt="Suburb house."
-                    loading="lazy">
-            </picture>
-        </div>
+      <div class="four">
+        <picture class="pic-four">
+          <img
+            src="images/picturefour(1).jpg"
+            data-src="images/picturefour(1).jpg"
+            alt="Suburb house."
+            loading="lazy"
+          />
+        </picture>
+      </div>
 
-        <div class="five">
-            <picture class = "pic-five">
-                <img 
-                    src="images/picturefive(1).jpg" 
-                    data-src="images/picturefive(1).jpg"
-                    alt="Whale surfacing."
-                    loading="lazy">
-            </picture>
-        </div>
-
+      <div class="five">
+        <picture class="pic-five">
+          <img
+            src="images/picturefive(1).jpg"
+            data-src="images/picturefive(1).jpg"
+            alt="Whale surfacing."
+            loading="lazy"
+          />
+        </picture>
+      </div>
     </main>
     <footer>
-        <p class = "footer-paragraph"> &copy; <span id = "currentYear"></span> - Austin Stafford - WDD 230 </p>
+      <p class="footer-paragraph">
+        &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
+      </p>
     </footer>
     <script src="lazyload.js"></script>
-</body>
-
+  </body>
 </html>
