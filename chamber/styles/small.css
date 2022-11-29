@@ -499,3 +499,8 @@ footer {
 footer a {
   color: white;
 }
+
+.location img {
+  height: 24px;
+  width: 24px;
+}
