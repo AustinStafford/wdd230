@@ -106,6 +106,22 @@ h1 {
   display: inline-block;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0px 0px 8px white;
+}
+
 #img {
   margin: 12px;
   max-width: 100%;
@@ -260,8 +276,9 @@ form input.joinBtn {
 .spotlight_2,
 .spotlight_3 {
   width: 425px;
-  margin-bottom: 10px;
-  min-height: 200px;
+  margin: auto;
+  /* margin-bottom: 10px;
+  min-height: 200px; */
 }
 
 .spotlight_1 section,
@@ -271,7 +288,7 @@ form input.joinBtn {
   flex-direction: column;
   height: auto;
   width: 100%;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 /* CSS for discover.html */
