@@ -102,13 +102,7 @@
   #spotlight_1 section,
   #spotlight_2 section,
   #spotlight_3 section {
-    border: 1px solid #3de8fb;
-    color: #3de8fb;
     margin: 1rem;
-    padding: 0.5rem;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: black;
   }
 
   #spotlight_1 section h2,
