@@ -254,7 +254,8 @@
   /* ----------FOOTER---------- */
   footer {
     display: grid;
-    grid-template-rows: auto 50px;
+    grid-template-rows: auto auto;
     grid-template-columns: auto auto auto;
+    height: 300px;
   }
 }
