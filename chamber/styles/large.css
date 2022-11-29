@@ -250,4 +250,11 @@
   } */
 
   /* min-height: 600px; */
+
+  /* ----------FOOTER---------- */
+  footer {
+    display: grid;
+    grid-template-rows: auto 50px;
+    grid-template-columns: auto auto auto;
+  }
 }
