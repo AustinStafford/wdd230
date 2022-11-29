@@ -142,6 +142,7 @@ main {
   min-height: 200px;
   text-align: justify;
   justify-content: center;
+  margin: 3rem;
 }
 
 .call_to_action p,
@@ -232,7 +233,6 @@ form input.joinBtn {
 #spotlight_3 section {
   border: 1px solid #3de8fb;
   color: #3de8fb;
-  margin: 1rem;
   padding: 0.5rem;
   align-items: center;
   justify-content: flex-start;
@@ -270,6 +270,8 @@ form input.joinBtn {
   display: flex;
   flex-direction: column;
   height: auto;
+  width: 100%;
+  margin-left: 25px;
 }
 
 /* CSS for discover.html */
