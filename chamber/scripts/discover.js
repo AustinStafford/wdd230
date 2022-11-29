@@ -18,9 +18,11 @@ const visitsDisplay = document.querySelector(".user_visits");
 let totalVisits = Number(window.localStorage.getItem("visits-ls"));
 
 
-// if (totalVisits !== 0) {
-// 	visitsDisplay.textContent = totalVisits;
-// } 
+if (totalVisits !== 0) {
+	visitsDisplay.textContent = totalVisits;
+} else {
+	visitsDisplay.textContent = 0;
+}
 
 totalVisits++;
 
