@@ -24,6 +24,10 @@ header {
   display: block;
   text-align: center;
 }
+
+.rowone {
+  padding-top: 10px;
+}
 /* ----------NAVIGATION---------- */
 nav {
   display: flex;
