@@ -50,6 +50,7 @@ nav button {
   border: none;
   font-size: 2rem;
   color: #e7f98b;
+  align-self: center;
 }
 
 nav ul {

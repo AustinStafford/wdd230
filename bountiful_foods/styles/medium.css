@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+  /* ----------HEAD/FOOTER---------- */
+  .header,
+  footer {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  /* nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    align-self: center;
+  }
+
+  nav button {
+    grid-row: 2;
+    margin: 0.2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #e7f98b;
+  } */
+
+  /* ----------MAIN---------- */
+
+  main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 1em;
+  }
+}
