@@ -14,7 +14,7 @@ header {
   /* grid-gap: 1em; */
 }
 
-.logo {
+header .logo {
   display: block;
   text-align: center;
   justify-content: space-evenly;
@@ -93,6 +93,7 @@ nav ul.hide {
   justify-content: space-evenly;
 }
 
+/* ----------FOOTER---------- */
 footer {
   background-color: #9ae372;
   color: #e7f98b;
@@ -103,4 +104,8 @@ footer {
   border: 2px solid;
   align-items: center;
   grid-gap: 1em;
+}
+
+footer .logo_img {
+  max-width: 25%;
 }

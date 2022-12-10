@@ -67,7 +67,57 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- The Fresh page contains a form that allows the user to build a specialty drink.
+        1. The form requires the following items: 
+            - first name
+            - email
+            - phone
+            - three (3) select inputs that are populated with the available fruit to put into a drink. 
+              Available fruit options must only come from this JSON data source: FRUIT Links to an 
+              external site. for full credit consideration.
+            - and, include an area that allows them to add special instructions if needed.
+        2. Do NOT send the form to a new page upon form submission.  Instead, use a JavaScript event 
+           handler to produce a formatted output area on this same page showing:
+            - the input values of the order (7 inputs = first name, email, phone, three selected fruits, 
+              and special instructions),
+            - the order date, and 
+            - the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three 
+              fruit choices selected on the form. Again, use the JSON fruit data to extract and sum up 
+              that information. -->
+
+      <form method="get" action="fresh.html">
+        <fieldset>
+          <legend>Customer Information</legend>
+          <label class="info"
+            >First Name* <input type="text" name="fname" required
+          /></label>
+          <label class="info"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="email@gmail.com"
+              required
+          /></label>
+          <label class="info"
+            >Phone <input type="tel" name="phone" placeholder="1235551234"
+          /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <label for="instructions">
+            <textarea
+              name="instructions"
+              id="instructions"
+              placeholder="Please provide special instructions if any."
+            ></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Send" class="submitBtn" />
+      </form>
+    </main>
     <footer>
       <div class="logo">
         <a href="home.html">
@@ -79,6 +129,14 @@
           <h1>Bountiful Foods</h1>
         </a>
       </div>
+      <p>Last modified date: <span id="lastModified"></span></p>
+      <p class="footer-paragraph">
+        &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
+      </p>
+      <p>
+        Weather Data Source:
+        <a href="https://openweathermap.org/">OpenWeatherMap</a>
+      </p>
     </footer>
     <script src="scripts/bountifulfoods.js"></script>
   </body>

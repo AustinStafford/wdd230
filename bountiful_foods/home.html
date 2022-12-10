@@ -68,7 +68,26 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- The Home page is a contemporary, exciting landing page providing images 
+        of fruit and produce including specialty fruit drinks that are ready to 
+        serve and made fresh. The page must contain the following: 
+        1. Readily available navigation and business contact information.
+        2. Summary information about any coastal area or areas in the southern 
+           California coast of your choosing.
+        3. A call to action to make your own fruit drink mix. This link can link to 
+           the 📄Fresh page.
+        4. The weather card(s) must summarize the current weather conditions for Carlsbad.
+           Use the openweathermap APIs (weather, forecast/daily) and include:
+           - the temperature,
+           - the condition description,
+           - the humidity, and 
+           - a three (3) day temperature forecast.
+        5. Include an information card about the total number of specialty drinks that the 
+           current user has submitted from the Fresh page form. This information should just 
+           be stored locally, with the user's agent (browser). 
+        6. Include the last modified date of the page in the footer using JavaScript.-->
+    </main>
     <footer>
       <div class="logo">
         <a href="home.html">
@@ -80,6 +99,14 @@
           <h1>Bountiful Foods</h1>
         </a>
       </div>
+      <p>Last modified date: <span id="lastModified"></span></p>
+      <p class="footer-paragraph">
+        &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
+      </p>
+      <p>
+        Weather Data Source:
+        <a href="https://openweathermap.org/">OpenWeatherMap</a>
+      </p>
     </footer>
     <script src="scripts/bountifulfoods.js"></script>
   </body>

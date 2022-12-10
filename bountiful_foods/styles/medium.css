@@ -33,4 +33,16 @@
     grid-template-rows: auto auto auto auto auto auto;
     grid-gap: 1em;
   }
+
+  /* ----------FOOTER---------- */
+  footer {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    height: 300px;
+  }
+
+  footer .logo_img {
+    max-width: 50%;
+  }
 }
