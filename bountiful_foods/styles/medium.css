@@ -27,7 +27,7 @@
 
   /* ----------MAIN---------- */
 
-  main {
+  .home {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto;

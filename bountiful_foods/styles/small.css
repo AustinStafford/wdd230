@@ -92,6 +92,83 @@ nav ul.hide {
 .social_media {
   justify-content: space-evenly;
 }
+/*----------- HOME --------------*/
+div {
+  border: 3px solid black;
+}
+
+/*----------- FRESH --------------*/
+.fresh {
+  display: block;
+  justify-content: space-evenly;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #9ae372;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+form legend {
+  color: #9ae372;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.info,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #21918c;
+  font-size: 0.8rem;
+}
+
+form label.info input,
+form label.info select {
+  /* -webkit-appearance: none; */
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #21918c;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: gray;
+  /* width: 100%;
+    max-width: 20rem; */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* form label.instructions textarea {
+  color: green;
+} */
+
+/* form label.level {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+} */
+
+form label.info input:required {
+  border-left: rgb(211, 0, 0) solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: rgb(1, 170, 1) solid 6px;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #9ae372;
+  color: #e7f98b;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
 
 /* ----------FOOTER---------- */
 footer {
