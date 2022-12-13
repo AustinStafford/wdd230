@@ -54,6 +54,29 @@
     grid-column: 3/4;
   }
 
+  /* ----------ABOUT US---------- */
+  .about {
+    display: grid;
+    grid-row: auto auto;
+    grid-column: auto auto;
+  }
+
+  .history {
+    grid-column: 1/4;
+  }
+
+  .contact {
+    grid-column: 1/2;
+  }
+
+  .map {
+    grid-column: 3/4;
+  }
+
+  /* .about div {
+    margin: 15px 15px;
+  } */
+
   /* ----------FOOTER---------- */
   footer {
     display: grid;

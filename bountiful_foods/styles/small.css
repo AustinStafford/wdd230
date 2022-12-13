@@ -183,9 +183,14 @@ div {
 .fresh {
   display: block;
   justify-content: space-evenly;
+  margin: 15px;
 }
 
-form fieldset {
+form {
+  margin: 15px;
+}
+
+form form fieldset {
   margin: 2rem 0;
   border: 1px solid #9ae372;
   border-radius: 10px;
@@ -251,6 +256,17 @@ form input.freshBtn {
   /* margin: 0 0 2rem 2%; */
   width: 96%;
   max-width: 20rem;
+}
+
+/* ----------ABOUT US---------- */
+.about {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+.about div {
+  margin: 15px 15px;
 }
 
 /* ----------FOOTER---------- */
