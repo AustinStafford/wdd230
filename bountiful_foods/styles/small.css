@@ -93,9 +93,91 @@ nav ul.hide {
   justify-content: space-evenly;
 }
 /*----------- HOME --------------*/
+
+.home div {
+  margin: 10px;
+}
+
 div {
   border: 3px solid black;
 }
+
+/*----------- ACTION --------------*/
+.action {
+  display: block;
+  text-align: center;
+}
+
+/*----------- SUMMARY --------------*/
+.summary {
+  display: block;
+  text-align: center;
+}
+
+/*----------- Weather --------------*/
+#cards {
+  grid-column: 1/3;
+}
+
+#cards img {
+  width: 100%;
+}
+
+#cards section {
+  border: 1px solid #3de8fb;
+  color: #3de8fb;
+  margin: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+}
+
+#cards section h2,
+#cards section image {
+  /* align-items: center; */
+  border: 1px solid #3de8fb;
+}
+
+#cards section p {
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* align-items: center; */
+}
+
+.grid section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  display: flex;
+  flex-direction: row;
+}
+
+.list section > * {
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.list section img {
+  display: none;
+}
+
+/*----------- INFORMATION CARD --------------*/
+/* .information_card {
+} */
 
 /*----------- FRESH --------------*/
 .fresh {
@@ -159,13 +241,14 @@ form label.info input:required:valid {
   border-left: rgb(1, 170, 1) solid 6px;
 }
 
-form input.submitBtn {
+form input.submitBtn,
+form input.freshBtn {
   border: none;
   background-color: #9ae372;
   color: #e7f98b;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
-  margin: 0 0 2rem 2%;
+  /* margin: 0 0 2rem 2%; */
   width: 96%;
   max-width: 20rem;
 }

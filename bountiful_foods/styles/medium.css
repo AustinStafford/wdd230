@@ -31,7 +31,27 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto;
-    grid-gap: 1em;
+    /* grid-gap: 1em; */
+  }
+
+  /*----------- ACTION --------------*/
+  .action {
+    grid-column: 1/4;
+  }
+
+  /*----------- SUMMARY --------------*/
+  .summary {
+    grid-column: 1/4;
+  }
+
+  /*----------- WEATHER --------------*/
+  .weather {
+    grid-column: 1/2;
+  }
+
+  /*----------- INFORMATION CARD --------------*/
+  .information_card {
+    grid-column: 3/4;
   }
 
   /* ----------FOOTER---------- */
@@ -39,7 +59,6 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
-    height: 300px;
   }
 
   footer .logo_img {

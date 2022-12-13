@@ -72,27 +72,40 @@
       <!-- The Home page is a contemporary, exciting landing page providing images 
         of fruit and produce including specialty fruit drinks that are ready to 
         serve and made fresh. The page must contain the following: 
-        1. Business contact information.
-        2. Summary information about any coastal area or areas in the southern 
+        1. Summary information about any coastal area or areas in the southern 
            California coast of your choosing.
-        3. A call to action to make your own fruit drink mix. This link can link to 
+        2. A call to action to make your own fruit drink mix. This link can link to 
            the 📄Fresh page.
-        4. The weather card(s) must summarize the current weather conditions for Carlsbad.
+        3. The weather card(s) must summarize the current weather conditions for Carlsbad.
            Use the openweathermap APIs (weather, forecast/daily) and include:
            - the temperature,
            - the condition description,
            - the humidity, and 
            - a three (3) day temperature forecast.
-        5. Include an information card about the total number of specialty drinks that the 
+        4. Include an information card about the total number of specialty drinks that the 
            current user has submitted from the Fresh page form. This information should just 
            be stored locally, with the user's agent (browser). -->
 
-      <div class="action"></div>
+      <div class="action">
+        <h3>Freshly made Fruit Drinks!</h3>
+        <form method="get" action="fresh.html">
+          <input type="submit" value="Fresh" class="freshBtn" />
+        </form>
+      </div>
       <div class="summary">
         <h3>Summary Information</h3>
       </div>
       <div class="weather">
         <h3>Weather</h3>
+        <div class="weather_div">
+          <figure>
+            <img src="weathericon" alt="Weather Icon" id="weather-icon" />
+            <figcaption></figcaption>
+          </figure>
+          <p>Temperature: <span id="current-temp">60</span>&deg;F</p>
+          <p>Wind Speed: <span id="wind-speed">2</span> mph</p>
+          <p>Wind Chill: <span id="wind-chill"></span></p>
+        </div>
       </div>
       <div class="information_card">
         <h3>Information Card</h3>
@@ -109,6 +122,12 @@
           <h1>Bountiful Foods</h1>
         </a>
       </div>
+      <div class="contact">
+        <p>Address: 4321 Sunlight Drive Carlsbad, CA 92008</p>
+        <p>Phone Number: (904) 876-5432</p>
+        <p>E-mail: bountifulfoods@gmail.com</p>
+      </div>
+
       <p>Last modified date: <span id="lastModified"></span></p>
       <p class="footer-paragraph">
         &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
@@ -119,5 +138,6 @@
       </p>
     </footer>
     <script src="scripts/bountifulfoods.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>
