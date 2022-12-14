@@ -68,10 +68,6 @@
       </nav>
     </header>
     <main class="about">
-      <!-- 1. The About Us page provides:
-            - historical information about the company and area 
-            - plus contact information, 
-            - and a Google Map and other relevant content.-->
       <div class="history">
         <h3>History</h3>
         <p>
@@ -98,21 +94,16 @@
       </div>
       <div class="map">
         <h3>Map</h3>
-        <img alt="Location Icon." src="./images/icons8-location-48.png" />
         <a
           href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215,-117.3578422,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939"
-        ></a>
-        <img
-          class="carlsbad"
-          alt="Map of Carlsbad, CA."
-          src="images/carlsbad_map.png"
-        />
-        <a
-          href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215,-117.3578422,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939"
-        ></a>
+        >
+          <img
+            class="carlsbad"
+            alt="Map of Carlsbad, CA."
+            src="images/carlsbad_map.png"
+          />
+        </a>
       </div>
-      <!--2. If necessary, include a resource/attribution page that references outside content as a link in the footer.
-           This supplement page does not need to be styled. -->
     </main>
     <footer>
       <div class="logo">
@@ -130,15 +121,19 @@
         <p>Phone Number: (904) 876-5432</p>
         <p>E-mail: bountifulfoods@gmail.com</p>
       </div>
-
-      <p>Last modified date: <span id="lastModified"></span></p>
-      <p class="footer-paragraph">
-        &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
-      </p>
-      <p>
-        Weather Data Source:
-        <a href="https://openweathermap.org/">OpenWeatherMap</a>
-      </p>
+      <div class="sources">
+        <p>
+          Weather Data Source:
+          <a href="https://openweathermap.org/">OpenWeatherMap</a>
+        </p>
+        <p><a href="attribution.html">Attribution Page</a></p>
+      </div>
+      <div class="copyright">
+        <p>Last modified date: <span id="lastModified"></span></p>
+        <p class="footer-paragraph">
+          &copy; <span id="currentYear"></span> - Austin Stafford - WDD 230
+        </p>
+      </div>
     </footer>
     <script src="scripts/bountifulfoods.js"></script>
   </body>
