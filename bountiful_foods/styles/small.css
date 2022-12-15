@@ -212,6 +212,7 @@ form {
 }
 
 form fieldset {
+  display: block;
   margin: 2rem 0;
   border: 1px solid #9ae372;
   border-radius: 10px;
@@ -220,6 +221,10 @@ form fieldset {
   padding-right: 50px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.fruit_combinations {
+  display: block;
 }
 
 form legend {
@@ -280,6 +285,20 @@ form input.freshBtn {
   max-width: 20rem;
 }
 
+.options {
+  text-align: center;
+  color: #e7f98b;
+  background-color: #21918c;
+  border: 3px solid #e7f98b;
+}
+
+.options ul,
+.information_card ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
 /* ----------ABOUT US---------- */
 .about {
   display: block;
@@ -293,6 +312,10 @@ form input.freshBtn {
 
 .carlsbad {
   width: 100%;
+}
+
+.fruits {
+  width: 90%;
 }
 
 .history {

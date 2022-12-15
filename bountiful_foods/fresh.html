@@ -67,7 +67,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="fresh">
       <!-- The Fresh page contains a form that allows the user to build a specialty drink.
         1. The form requires the following items: 
             - three (3) select inputs that are populated with the available fruit to put into a drink. 
@@ -81,45 +81,237 @@
               fruit choices selected on the form. Again, use the JSON fruit data to extract and sum up 
               that information. -->
 
-      <form method="get" action="fresh.html">
-        <fieldset>
-          <legend>Customer Information</legend>
-          <label class="info"
-            >First Name* <input type="text" name="fname" required
-          /></label>
-          <label class="info"
-            >Email*
+      <div class="form">
+        <form method="get" action="fresh.html">
+          <fieldset>
+            <legend>Customer Information</legend>
+            <label class="info"
+              >First Name* <input type="text" name="fname" required
+            /></label>
+            <label class="info"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="email@gmail.com"
+                required
+            /></label>
+            <label class="info"
+              >Phone
+              <input type="tel" name="phone" placeholder="1235551234" required
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Fruit Combinations</legend>
+            <label class="info" for="fruitone"
+              >Fruit One<abbr title="mandatory" aria-label="required"></abbr
+            ></label>
             <input
-              type="email"
-              name="email"
-              placeholder="email@gmail.com"
+              type="text"
+              id="fruitone"
+              name="fruitone"
+              list="l1"
               required
-          /></label>
-          <label class="info"
-            >Phone
-            <input type="tel" name="phone" placeholder="1235551234" required
-          /></label>
-        </fieldset>
-        <fieldset>
-          <legend>Fruit Combinations</legend>
-          <label class="fruit_choice"
-            ><input type="radio" name="audience" value="fruit" />NP
-            Membership</label
-          >
-        </fieldset>
-        <!-- <div class="grid" id="cards"></div> -->
-        <fieldset>
-          <legend>Special Instructions</legend>
-          <label for="instructions">
-            <textarea
-              name="instructions"
-              id="instructions"
-              placeholder="Please provide special instructions if any."
-            ></textarea>
-          </label>
-        </fieldset>
-        <input type="submit" value="Send" class="submitBtn" />
-      </form>
+              pattern="[A]pple|
+             [Aa]pricot|
+             [Aa]vocado|
+             [Bb]anana|
+             [Bb]lackberry|
+             [Bb]lueberry|
+             [Cc]herry|
+             [Dd]ragonfruit|
+             [Dd]urian|
+             [Ff]eijoa|
+             [Ff]ig|
+             [Gg]ooseberry|
+             [Gg]rape|
+             [Gg]rapes|
+             [Gg]reen[A]pple|
+             [Gg]uava|
+             [Kk]iwi|
+             [Kk]iwifruit|
+             [Ll]emon|
+             [Ll]ime|
+             [Ll]ingonberry|
+             [Ll]ychee|
+             [Mm]ango|
+             [Mm]elon|
+             [Mm]orus|
+             [Oo]range|
+             [Pp]apaya|
+             [Pp]assionfruit|
+             [Pp]ear|
+             [Pp]ersimmon|
+             [Pp]ineapple|
+             [Pp]itahaya|
+             [Pp]lum|
+             [Pp]omegranate|
+             [Rr]aspberry|
+             [Ss]trawberry|
+             [Tt]angerine|
+             [Tt]omato|
+             [Ww]atermelon|"
+              oninvalid="this.value('')"
+            />
+            <label class="info" for="fruittwo"
+              >Fruit Two<abbr title="mandatory" aria-label="required"></abbr
+            ></label>
+            <input
+              type="text"
+              id="fruittwo"
+              name="fruittwo"
+              list="l1"
+              required
+              pattern="[A]pple|
+             [Aa]pricot|
+             [Aa]vocado|
+             [Bb]anana|
+             [Bb]lackberry|
+             [Bb]lueberry|
+             [Cc]herry|
+             [Dd]ragonfruit|
+             [Dd]urian|
+             [Ff]eijoa|
+             [Ff]ig|
+             [Gg]ooseberry|
+             [Gg]rape|
+             [Gg]rapes|
+             [Gg]reen[A]pple|
+             [Gg]uava|
+             [Kk]iwi|
+             [Kk]iwifruit|
+             [Ll]emon|
+             [Ll]ime|
+             [Ll]ingonberry|
+             [Ll]ychee|
+             [Mm]ango|
+             [Mm]elon|
+             [Mm]orus|
+             [Oo]range|
+             [Pp]apaya|
+             [Pp]assionfruit|
+             [Pp]ear|
+             [Pp]ersimmon|
+             [Pp]ineapple|
+             [Pp]itahaya|
+             [Pp]lum|
+             [Pp]omegranate|
+             [Rr]aspberry|
+             [Ss]trawberry|
+             [Tt]angerine|
+             [Tt]omato|
+             [Ww]atermelon|"
+              oninvalid="this.value('')"
+            />
+            <label class="info" for="fruitthree"
+              >Fruit Three<abbr title="mandatory" aria-label="required"></abbr
+            ></label>
+            <input
+              type="text"
+              id="fruitthree"
+              name="fruitthree"
+              list="l1"
+              required
+              pattern="[A]pple|
+             [Aa]pricot|
+             [Aa]vocado|
+             [Bb]anana|
+             [Bb]lackberry|
+             [Bb]lueberry|
+             [Cc]herry|
+             [Dd]ragonfruit|
+             [Dd]urian|
+             [Ff]eijoa|
+             [Ff]ig|
+             [Gg]ooseberry|
+             [Gg]rape|
+             [Gg]rapes|
+             [Gg]reen[A]pple|
+             [Gg]uava|
+             [Kk]iwi|
+             [Kk]iwifruit|
+             [Ll]emon|
+             [Ll]ime|
+             [Ll]ingonberry|
+             [Ll]ychee|
+             [Mm]ango|
+             [Mm]elon|
+             [Mm]orus|
+             [Oo]range|
+             [Pp]apaya|
+             [Pp]assionfruit|
+             [Pp]ear|
+             [Pp]ersimmon|
+             [Pp]ineapple|
+             [Pp]itahaya|
+             [Pp]lum|
+             [Pp]omegranate|
+             [Rr]aspberry|
+             [Ss]trawberry|
+             [Tt]angerine|
+             [Tt]omato|
+             [Ww]atermelon|"
+              oninvalid="this.value('')"
+            />
+          </fieldset>
+          <!-- <div class="grid" id="cards"></div> -->
+          <fieldset>
+            <legend>Special Instructions</legend>
+            <label for="instructions">
+              <textarea
+                name="instructions"
+                id="instructions"
+                placeholder="Please provide special instructions if any."
+              ></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Send" class="submitBtn" />
+        </form>
+      </div>
+      <div class="options">
+        <h3>Fruit Options</h3>
+        <ul>
+          <li>Apple</li>
+          <li>Apricot</li>
+          <li>Avocado</li>
+          <li>Banana</li>
+          <li>Blackberry</li>
+          <li>Blueberry</li>
+          <li>Cherry</li>
+          <li>Dragonfruit</li>
+          <li>Durian</li>
+          <li>Feijoa</li>
+          <li>Fig</li>
+          <li>Gooseberry</li>
+          <li>Grape</li>
+          <li>Grapes</li>
+          <li>GreenApple</li>
+          <li>Guava</li>
+          <li>Kiwi</li>
+          <li>Kiwifruit</li>
+          <li>Lemon</li>
+          <li>Lime</li>
+          <li>Lingonberry</li>
+          <li>Lychee</li>
+          <li>Mango</li>
+          <li>Melon</li>
+          <li>Morus</li>
+          <li>Orange</li>
+          <li>Papaya</li>
+          <li>Passionfruit</li>
+          <li>Pear</li>
+          <li>Persimmon</li>
+          <li>Pineapple</li>
+          <li>Pitahaya</li>
+          <li>Plum</li>
+          <li>Pomegranate</li>
+          <li>Raspberry</li>
+          <li>Strawberry</li>
+          <li>Tangerine</li>
+          <li>Tomato</li>
+          <li>Watermelon</li>
+        </ul>
+      </div>
     </main>
     <footer>
       <div class="logo">

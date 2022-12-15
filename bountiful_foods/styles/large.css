@@ -69,6 +69,21 @@
     grid-row: 2;
   }
 
+  .fresh {
+    display: grid;
+  }
+
+  .form {
+    grid-column: 1;
+  }
+
+  .options {
+    grid-column: 2;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+  }
+
   /* ----------FOOTER---------- */
   footer {
     grid-template-rows: auto auto;

@@ -22,18 +22,6 @@ fruitChoice.appendChild(input);
  document.querySelector('label.fruit_choice').appendChild(fruitChoice);
 }
 
-
-// const rating = document.getElementById("rating");
-// const rangevalue = document.getElementById("r");
-
-// function displayRatingValue() {
-//     rating.innerHTML = rangevalue.value;
-// }
-
-// rangevalue.addEventListener('change', displayRatingValue);
-// rangevalue.addEventListener('input', displayRatingValue);
-
-
 // <fieldset>
 //           <legend>Fruit Combinations</legend>
 //           <label class="fruit_choice"
