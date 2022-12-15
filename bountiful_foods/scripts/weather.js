@@ -5,7 +5,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const tomorrow = document.querySelector('#tomorrow-temp');
 const twoTemp = document.querySelector('#two-temp');
-const threeTemp = document.querySelector('three-temp');
+const threeTemp = document.querySelector('#three-temp');
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=carlsbad&units=imperial&appid=62a5684b5a13d785bf0dcaaae0881b52'
 
 // const windChill = 35.74 + (0.6215 * currentTemp) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * currentTemp * Math.pow(windSpeed, 0.16));

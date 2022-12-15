@@ -39,39 +39,39 @@
     display: flex;
     flex-direction: row;
   }
-}
 
-/* ----------MAIN---------- */
+  /* ----------MAIN---------- */
 
-/* .home {
+  /* .home {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
 } */
 
-/*----------- ACTION --------------*/
-.action {
-  grid-column: 1/6;
-}
+  /*----------- ACTION --------------*/
+  .action {
+    grid-column: 1/6;
+  }
 
-/*----------- SUMMARY --------------*/
-.summary {
-  grid-column: 2/5;
-}
+  /*----------- SUMMARY --------------*/
+  .summary {
+    grid-column: 2/5;
+  }
 
-/*----------- WEATHER --------------*/
-.weather {
-  grid-column: 1/2;
-  grid-row: 2;
-}
+  /*----------- WEATHER --------------*/
+  .weather {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
 
-/*----------- INFORMATION CARD --------------*/
-.information_card {
-  grid-column: 5/6;
-  grid-row: 2;
-}
+  /*----------- INFORMATION CARD --------------*/
+  .information_card {
+    grid-column: 5/6;
+    grid-row: 2;
+  }
 
-/* ----------FOOTER---------- */
-footer {
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto;
+  /* ----------FOOTER---------- */
+  footer {
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+  }
 }

@@ -207,9 +207,11 @@ nav ul.hide {
 
 form {
   margin: 15px;
+  align-self: center;
+  text-align: center;
 }
 
-form form fieldset {
+form fieldset {
   margin: 2rem 0;
   border: 1px solid #9ae372;
   border-radius: 10px;
@@ -217,6 +219,7 @@ form form fieldset {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 form legend {
@@ -236,7 +239,7 @@ form div {
 form label.info input,
 form label.info select {
   /* -webkit-appearance: none; */
-  display: block;
+  /* display: block; */
   font-size: 1rem;
   border: solid 1px #21918c;
   border-radius: 4px;
@@ -251,11 +254,11 @@ form label.info select {
   color: green;
 } */
 
-/* form label.level {
+form label.level {
   display: block;
   padding: 0.75rem 0;
   color: #555;
-} */
+}
 
 form label.info input:required {
   border-left: rgb(211, 0, 0) solid 6px;
